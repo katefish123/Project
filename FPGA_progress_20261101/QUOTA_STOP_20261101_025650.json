@@ -1,0 +1,27 @@
+{
+  "sealed_at": "2026-11-01T02:58:00+08:00",
+  "reason": "FPGA_QUOTA_STOP_20261101_025650",
+  "optimization_stopped": true,
+  "new_heavy_tasks_started": false,
+  "pds_intentionally_left_running": true,
+  "observed_pids": [
+    49504,
+    38876
+  ],
+  "build": "work_v2/candidate_team_merge1/build/pds_20261031_224731_129913",
+  "last_observed_detail_iteration": 21,
+  "last_observed_unrouted_nets": 40094,
+  "uploaded_snapshot_commit": "71927c2fbcce8cbc7849320d1bea72cc50d3e210",
+  "snapshot_source_files_checked": 151,
+  "changed_or_missing_snapshot_sources": [],
+  "qualified_for_board_test": false,
+  "hardware_accepted": false,
+  "missing": [
+    "Final detailed-route completion and all-corner timing/IO audit",
+    "Independent same-database STA and paired bitstream/mask",
+    "Qualification manifest and verified release package",
+    "Hardware acceptance"
+  ],
+  "recovery": "Keep existing live PDS processes; do not start duplicate build. Read CONTINUE.md and STATUS_20261101.md before explicit user resume. Generated map/place databases remain local under build path and were excluded from progress ZIP. No new source changes since uploaded snapshot.",
+  "upload_complete_marker_allowed": false
+}
