@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="560" viewBox="0 0 1400 560" font-family="Microsoft YaHei, PingFang SC, Noto Sans SC, sans-serif">
+  <defs>
+    <marker id="a6" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#0e8fa8"/>
+    </marker>
+    <style>
+      .h{fill:#0f2740;font-size:20px;font-weight:700}
+      .n{fill:#3f5a70;font-size:14px}
+      .d{fill:#ffffff;stroke:#0f2740;stroke-width:2}
+      .dA{fill:#eaf6f8;stroke:#0e8fa8;stroke-width:2}
+      .dh{fill:#0f2740;font-size:17px;font-weight:700}
+      .mod{fill:#3f5a70;font-size:13px}
+      .flow{fill:none;stroke:#0e8fa8;stroke-width:2.2}
+      .cap{fill:#0e8fa8;font-size:13px;font-weight:600}
+      .sm{fill:#5b7186;font-size:13px}
+    </style>
+  </defs>
+  <rect width="1400" height="560" fill="#ffffff"/>
+
+  <text class="h" x="60" y="42">五个时钟域与跨域方式</text>
+  <text class="n" x="60" y="68">所有跨域数据都经异步 FIFO 或握手邮箱；复位按域同步释放，PLL 锁定后才开放配置与数据通路</text>
+
+  <!-- 参数邮箱 -->
+  <path class="flow" d="M160,140 L160,112 L735,112 L735,140" marker-end="url(#a6)"/>
+  <text class="cap" x="300" y="104">240 位参数邮箱（整组快照，27 MHz → 92.8125 MHz）</text>
+
+  <!-- 域 1 -->
+  <rect class="d" x="60" y="140" width="200" height="150" rx="8"/>
+  <text class="dh" x="80" y="172">27 MHz</text>
+  <text class="mod" x="80" y="196">系统 / 配置时钟</text>
+  <text class="mod" x="80" y="220">UART 115200</text>
+  <text class="mod" x="80" y="242">参数解析与 CRC</text>
+  <text class="mod" x="80" y="264">复位管理</text>
+
+  <!-- 域 2 -->
+  <rect class="dA" x="330" y="140" width="210" height="150" rx="8"/>
+  <text class="dh" x="350" y="172">148.5 MHz</text>
+  <text class="mod" x="350" y="196">输入像素时钟</text>
+  <text class="mod" x="350" y="220">HDMI RX 像素</text>
+  <text class="mod" x="350" y="242">DE/VS 对齐</text>
+  <text class="mod" x="350" y="264">整帧采集</text>
+
+  <!-- 域 3 -->
+  <rect class="dA" x="610" y="140" width="250" height="150" rx="8"/>
+  <text class="dh" x="630" y="172">92.8125 MHz</text>
+  <text class="mod" x="630" y="196">处理时钟</text>
+  <text class="mod" x="630" y="220">坐标变换 / 镜头映射</text>
+  <text class="mod" x="630" y="242">参数锁存 / 分块控制</text>
+  <text class="mod" x="630" y="264">结果写回调度</text>
+
+  <!-- 域 4 -->
+  <rect class="d" x="930" y="140" width="190" height="150" rx="8"/>
+  <text class="dh" x="950" y="172">125 MHz</text>
+  <text class="mod" x="950" y="196">DDR UI 时钟</text>
+  <text class="mod" x="950" y="220">仲裁 / 读写引擎</text>
+  <text class="mod" x="950" y="242">四邻域缓存</text>
+  <text class="mod" x="950" y="264">显示预取</text>
+
+  <!-- 域 5 -->
+  <rect class="dA" x="1190" y="140" width="150" height="150" rx="8"/>
+  <text class="dh" x="1208" y="172">74.25 MHz</text>
+  <text class="mod" x="1208" y="196">输出像素</text>
+  <text class="mod" x="1208" y="220">VTC 扫描</text>
+  <text class="mod" x="1208" y="242">HDMI TX</text>
+  <text class="mod" x="1208" y="264">1080p30</text>
+
+  <!-- 跨域箭头 -->
+  <path class="flow" d="M160,290 L160,340 L540,340 L540,290" marker-end="url(#a6)"/>
+  <text class="cap" x="300" y="332">I²C 配置 · 复位同步</text>
+
+  <path class="flow" d="M435,290 L435,380 L735,380 L735,290" marker-end="url(#a6)"/>
+  <text class="cap" x="530" y="372">320 位异步包 FIFO（8 像素 + 头）</text>
+
+  <path class="flow" d="M735,290 L735,420 L1025,420 L1025,290" marker-end="url(#a6)"/>
+  <text class="cap" x="845" y="412">缓存请求 / 响应 · 帧代数</text>
+
+  <path class="flow" d="M1025,290 L1025,460 L1265,460 L1265,290" marker-end="url(#a6)"/>
+  <text class="cap" x="1118" y="452">显示行缓冲握手</text>
+
+  <line x1="60" y1="500" x2="1340" y2="500" stroke="#d5e2ec" stroke-width="1.5"/>
+  <text class="sm" x="60" y="524">时钟来源：板载 27 MHz 晶振 → 像素 PLL（148.5 / 74.25 MHz）、配置 PLL（10 MHz）、处理时钟（92.8125 MHz）；DDR 参考时钟与 UI 时钟由 DDR IP 产生。</text>
+  <text class="sm" x="60" y="546">参数邮箱不随 DDR 恢复复位，恢复后仍保留最后一次角度与缩放；整机硬复位则取消所有未提交事务并回到默认参数。</text>
+</svg>
