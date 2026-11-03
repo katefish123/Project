@@ -80,4 +80,4 @@
 "03_history/20261008_integrated/video_correct_integrated_20261008/tools/obs-studio/portable/bin/64bit/obs64.pdb" filter=lfs diff=lfs merge=lfs -text
 "03_history/20261008_integrated/video_correct_integrated_20261008/tools/obs-studio/portable/obs-plugins/64bit/libcef.dll" filter=lfs diff=lfs merge=lfs -text
 "03_history/20261008_integrated/video_correct_integrated_20261008/tools/python_packages/imageio_ffmpeg/binaries/ffmpeg-win-x86_64-v7.1.exe" filter=lfs diff=lfs merge=lfs -text
-"07_archives/FPGA_1080p30_完整工程_含烧录文件_20261102.zip" filter=lfs diff=lfs merge=lfs -text
+"06_archives/FPGA_1080p30_完整工程_含烧录文件_20261102.zip" filter=lfs diff=lfs merge=lfs -text
