@@ -1,0 +1,36 @@
+{
+  "record_date_local": "2026-10-18",
+  "timezone": "Asia/Shanghai",
+  "bitstream_sha256": "3e3475d30e6fa2488a57a084aa236353077b91d80969b7d1c412c89c064d1b50",
+  "events": [
+    {
+      "observation": "DDR ALIGN ERROR和彩条；KEY0后仍有提示，LED6不亮",
+      "evidence": "obs_ddr_align_error.png及本聊天用户反馈"
+    },
+    {
+      "observation": "用户称板子有点烫并断电；温度未测量",
+      "evidence": "本聊天用户反馈"
+    },
+    {
+      "observation": "重新供电后下载相同V4S，Program成功，done/init_complete为1，crc_err为0",
+      "evidence": "reprogram_20261018_013824.log"
+    },
+    {
+      "observation": "有矫正页了",
+      "evidence": "用户原话"
+    },
+    {
+      "observation": "可以了我觉得",
+      "context": "对四角可见时放入/移开手指、短时更新检查的回复",
+      "evidence": "用户原话"
+    }
+  ],
+  "basic_functional_check": "user_reports_acceptable",
+  "independent_success_video_present": false,
+  "measured_frame_rate": null,
+  "long_term_stability_verified": false,
+  "hardware_full_acceptance": false,
+  "verify_passed": false,
+  "verify_blocker": "missing matching smsk",
+  "flash_modified": false
+}

@@ -1,0 +1,12 @@
+{
+  "candidate": "C V4S black marker",
+  "source_commit": "a8c42b8",
+  "bitstream_sha256": "3e3475d30e6fa2488a57a084aa236353077b91d80969b7d1c412c89c064d1b50",
+  "production_inputs": 136,
+  "source_bytes_unchanged": true,
+  "organization_date": "2026-10-18",
+  "hardware_access_during_packaging": false,
+  "diagnostic_derivative_included": false,
+  "full_verify_available": false,
+  "reason": "Original V4S release does not contain matching smsk"
+}

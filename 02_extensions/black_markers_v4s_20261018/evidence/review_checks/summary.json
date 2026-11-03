@@ -1,0 +1,50 @@
+{
+  "reduced6": {
+    "passed": true,
+    "frames": 6,
+    "corrected_pixels": 9216,
+    "display_pixels": 9216,
+    "errors": 0,
+    "warnings": 0,
+    "log_sha256": "78fd3935cbd711abd9ee2f0745281b52f534704d75fbefbfd4e7f2e13ca962be"
+  },
+  "native3": {
+    "passed": true,
+    "frames": 3,
+    "corrected_pixels": 2488320,
+    "display_pixels": 3317760,
+    "errors": 0,
+    "warnings": 0,
+    "log_sha256": "f2d7bc2e5d068f07b439cf461617233d37833e7ac6f7867802e9f2624bb02f9d"
+  },
+  "pds_compile": {
+    "passed": true,
+    "new_synthesis_or_route_performed": false,
+    "log_sha256": "b88555a3f6f4382fd0b3753b37bd13a96f8430ff80d8b9c5be697178411f2b8d",
+    "warnings_retained": true
+  },
+  "vectors": {
+    "passed": true,
+    "source": "Observed verify_vectors.py tool output during packaging",
+    "reduced": {
+      "variants": 3,
+      "pixels": 4608
+    },
+    "fullhd": {
+      "variants": 3,
+      "pixels": 2488320
+    }
+  },
+  "production_identity": {
+    "inputs": 136,
+    "matched": 136,
+    "changed": 0,
+    "bitstream_sha256": "3e3475d30e6fa2488a57a084aa236353077b91d80969b7d1c412c89c064d1b50"
+  },
+  "scope": {
+    "hardware_access_during_packaging": false,
+    "original_sbit_preserved": true,
+    "full_new_physical_implementation": false
+  },
+  "native_testbench_snapshot_sha256": "a374e13e028d4307f1566b98189c5853b2094665e9e73e4a807a50c68bf29ca4"
+}
