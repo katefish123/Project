@@ -11,17 +11,16 @@
 | 黑色角标拓展 V4S | [教师审核说明](02_extensions/black_markers_v4s_20261018/README.md) · [PDS 工程](02_extensions/black_markers_v4s_20261018/project/V4S_Review.pds) |
 | 历史集成工程、交接、增量与进度 | [历史目录](03_history/) |
 | A/B/C 团队资料及 C 实验快照 | [团队目录](04_team/) |
-| 竞赛报告、海报与文案 | [竞赛材料](05_competition/competition_20261104/README.md) |
-| 时间线及原路径对照 | [时间线](06_docs/TIMELINE.md) · [整理规则](06_docs/ORGANIZATION.md) · [分支清单](06_docs/BRANCHES.md) |
-| 用户原始完整工程压缩包 | [原 ZIP](07_archives/FPGA_1080p30_完整工程_含烧录文件_20261102.zip) |
+| 时间线及原路径对照 | [时间线](05_docs/TIMELINE.md) · [整理规则](05_docs/ORGANIZATION.md) · [分支清单](05_docs/BRANCHES.md) |
+| 用户原始完整工程压缩包 | [原 ZIP](06_archives/FPGA_1080p30_完整工程_含烧录文件_20261102.zip) |
 
 ## 获取完整文件
 
 仓库含 Git LFS 大文件。请使用安装了 Git LFS 的 Git 客户端克隆，并执行：
 
 ```sh
-git clone https://github.com/katefish123/PythonProject_update.git
-cd PythonProject_update
+git clone https://github.com/katefish123/Project.git
+cd Project
 git lfs pull
 ```
 
