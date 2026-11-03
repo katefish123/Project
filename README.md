@@ -1,27 +1,29 @@
-# main-B：B 成员算法工程
+# B 成员：透视矫正与镜头校正
 
-本分支的三个 ZIP 已分别解压到独立的同名目录。原压缩包和已有 `final/` 目录保留；不同版本的源码、演示和历史验证记录分别存放。
+按功能选择工程。各目录直接包含 `rtl/`、`python/`、`sim/` 等工程文件，已去掉重复嵌套的一层目录。
 
-## 选择工程
-
-| 功能 | 解压目录与说明 | 原压缩包 |
+| 目录 | 功能与适用场景 | 说明 |
 | --- | --- | --- |
-| 四色标记透视矫正 | [member_b_perspective_final/](member_b_perspective_final/README_说明.md) | [ZIP](member_b_perspective_final.zip) |
-| 黑色四角标记透视矫正 | [member_b_perspective_black/](member_b_perspective_black/README_说明.md) | [ZIP](member_b_perspective_black.zip) |
-| 镜头畸变校正与自动去黑边 | [member_b_lens_pipeline_v2_blackborder_fixed_20261022/](member_b_lens_pipeline_v2_blackborder_fixed_20261022/README_说明.md) | [ZIP](member_b_lens_pipeline_v2_blackborder_fixed_20261022.zip) |
+| [01_四色角标透视矫正](01_四色角标透视矫正/) | 红、绿、黄、蓝四色角点检测，求 H 并做逆透视采样 | [文件功能与入口](01_四色角标透视矫正/README_说明.md) |
+| [02_黑色角标透视矫正](02_黑色角标透视矫正/) | 在四个 ROI 中识别黑色角标，计算质心并矫正彩色图像 | [文件功能与入口](02_黑色角标透视矫正/README_说明.md) |
+| [03_镜头畸变校正与去黑边](03_镜头畸变校正与去黑边/) | 根据标定内参校正镜头畸变，以有效区域裁剪缩放去黑边 | [文件功能与入口](03_镜头畸变校正与去黑边/README_说明.md) |
+| [04_早期四色角标参考](04_早期四色角标参考/) | 原 `final/`，保留 2026-10-05 的四色算法及验证资料，用于历史对照 | [来源与入口](04_早期四色角标参考/README_说明.md) |
 
-四色版以颜色区分四角；黑标版以四个 ROI 区分同色角标；镜头 V2 的新入口读取标定参数，不要求角标，并支持有效区裁剪去黑边。镜头校正与纸面透视校正是不同功能，镜头包尚未实现自动识别无标记纸边。
+镜头 V2 新入口不依赖角标，但尚未实现自动识别无标记纸边；去黑边通过裁剪缩放，会损失部分视野。透视矫正与镜头畸变校正的适用场景请分别查看各目录说明。
 
-## 文件怎么读
+## 主要文件在哪里
 
-每个解压目录的 `README_说明.md` 解释目录、主要 RTL/Python 文件、入口和包内已有验证范围；`EXTRACTION_MANIFEST.json` 列出原 ZIP 中全部文件的路径、字节数和 SHA256。进入解压目录内原有的工程根目录后再使用原运行说明。
+- `rtl/`：Verilog 算法模块；`python/`：浮点/定点参考和命令行入口。
+- `sim/`、`scripts/`、`vectors/`：自检查仿真、运行脚本和测试向量。
+- `examples/`：图像、阈值、标定参数或 RTL 接线示例；`docs/`：算法和接口文档。
+- `results/`：原包历史验证记录；`backups/`：历史快照；`work/`、`__MACOSX/`：编译缓存或系统元数据。
 
-各包通常包含 `rtl/` 算法硬件、`python/` 数值参考、`sim/` 仿真、`scripts/` 测试及演示脚本、`examples/` 图片和接线、`vectors/` 测试向量、`results/` 历史证据、`docs/` 接口和算法文档。`backups/` 是历史资料；`work/` 是编译缓存；`__MACOSX/` 是系统元数据。
+各目录的 `README_说明.md` 说明主要文件功能。三个解压包的 `EXTRACTION_MANIFEST.json` 记录每个文件的原 ZIP 路径、当前路径、大小及 SHA256。原有 HDL/Python 文件名和工程内部相对引用保留。
 
-已有 [`final/`](final/README.md) 作为分支原有文件集合保留；它与 `member_b_perspective_final.zip` 的解压目录分开存放，没有互相覆盖。
+## 整理来源与校验
 
-## 整理校验
+本次基于 `cf7a3c05fad0ae4b8f887632fa332cc0a60c5632` 整理，保留该版本已经删除三个 ZIP 的状态。原 ZIP 可在 [原始上传版本](https://github.com/katefish123/PythonProject_update/tree/510c040f8da06e67f5b9b64f9c851dffeff3a8b0) 查看。
 
-原分支提交：`510c040f8da06e67f5b9b64f9c851dffeff3a8b0`。三个 ZIP 的 CRC 均通过，解压出的 999 个文件逐字节与原 ZIP 一致，所有原包内容均保留。原 ZIP 及分支原有文件未修改。
+三个 ZIP 在此前解压时均通过 CRC 检查，解压的 999 个文件与原包一致；本次仅调整目录名称和层级、更新入口说明与清单。包内原源码、图片、日志及验证证据的字节内容保留。
 
-本次仅整理和阅读文件，没有运行包内程序或重新验证 FPGA 功能。各包的 pass 状态属于原包历史软件/RTL 仿真记录；PDS 时序、板上 DDR/HDMI、整机帧率及硬件验收应按相应实际证据判断。
+本次没有运行包内程序或重新验证 FPGA 功能。原包软件/RTL 仿真结果不能替代 PDS 时序、板上 DDR/HDMI 联调、帧率或整机验收。
