@@ -1,0 +1,455 @@
+{
+  "status": "pass",
+  "generated_utc": "2026-10-22T09:59:49.114729+00:00",
+  "limitations": [
+    "PDS synthesis/place-route/Fmax not run",
+    "Native ModelSim execution is not performed by this Icarus runner",
+    "Board/camera/DDR/HDMI not tested"
+  ],
+  "python_syntax": "pass",
+  "test_targets": [
+    "tb_perspective_coord",
+    "tb_homography_solver",
+    "tb_bilinear_interp",
+    "tb_marker_detector",
+    "tb_b_rectifier",
+    "tb_cache_contract",
+    "tb_b_integration",
+    "tb_request_boundaries",
+    "tb_lens_distort_coord",
+    "tb_lens_integration",
+    "tb_lens_autocrop"
+  ],
+  "test_manifest_sha256": "81542aded501984244c2a444ce3af0332ac121a7b35b3f38b7f4b8aadd9b3263",
+  "integration_example_sha256": "67b7d75342be3a623f76f0e6c920a8a50c1b0ebcf75eac545e06afea095554ed",
+  "float_fixed": {
+    "scene0": {
+      "points": [
+        [
+          10,
+          8
+        ],
+        [
+          52,
+          13
+        ],
+        [
+          56,
+          40
+        ],
+        [
+          7,
+          38
+        ]
+      ],
+      "H_q": [
+        26175995,
+        -2968810,
+        167772160,
+        3567396,
+        17646447,
+        134217728,
+        66261,
+        -111496,
+        16777216
+      ],
+      "method": "bilinear",
+      "coordinate_max_error_px": 0.003949185313381065,
+      "pixel_mae": 0.0920138888888889,
+      "pixel_max_error": 1
+    },
+    "scene1": {
+      "points": [
+        [
+          14,
+          7
+        ],
+        [
+          49,
+          10
+        ],
+        [
+          54,
+          37
+        ],
+        [
+          10,
+          41
+        ]
+      ],
+      "H_q": [
+        24913143,
+        -4596464,
+        234881024,
+        2842198,
+        17918483,
+        117440512,
+        121859,
+        -167868,
+        16777216
+      ],
+      "method": "nearest",
+      "coordinate_max_error_px": 0.0039225133359330755,
+      "pixel_mae": 0.0,
+      "pixel_max_error": 0
+    },
+    "hd_coordinates": {
+      "source_size": [
+        1920,
+        1080
+      ],
+      "output_size": [
+        1280,
+        720
+      ],
+      "samples": 800,
+      "coordinate_max_error_px": 0.05613507555540309,
+      "H_q": [
+        22233753,
+        -2248369,
+        3405774848,
+        1189394,
+        17946767,
+        1912602624,
+        1553,
+        -2768,
+        16777216
+      ]
+    }
+  },
+  "python_tests": 10,
+  "lens_python_tests": 8,
+  "lens_python_skipped": 0,
+  "lens_opencv_oracle": {
+    "status": "pass"
+  },
+  "viewport_python_tests": 7,
+  "lens_vectors": {
+    "lens_coordinates": 530,
+    "integration_transactions": 835,
+    "input_size": [
+      1920,
+      1080
+    ],
+    "profile_id": "canon_r50_18mm_hdmi_1920x1080_20261022_trial"
+  },
+  "autocrop_vectors": {
+    "transactions": 13046,
+    "distinct_boundary_pixels": 5996,
+    "output_size": [
+      1920,
+      1080
+    ],
+    "samplers": [
+      "bilinear",
+      "nearest"
+    ],
+    "source_outside_pixels": 0,
+    "full_grid_proof": {
+      "policy": "auto",
+      "source_size": [
+        1920,
+        1080
+      ],
+      "output_size": [
+        1920,
+        1080
+      ],
+      "base_H": [
+        [
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "effective_H": [
+        [
+          0.9935125115848007,
+          0.0,
+          8.724745134383738
+        ],
+        [
+          0.0,
+          0.9935125115848007,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "H_q24": [
+        16668374,
+        0,
+        146376934,
+        0,
+        16668374,
+        100663296,
+        0,
+        0,
+        16777216
+      ],
+      "viewport": [
+        [
+          0.9935125115848007,
+          0.0,
+          8.724745134383738
+        ],
+        [
+          0.0,
+          0.9935125115848007,
+          6.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "valid_integer_rectangle": [
+        5,
+        5,
+        1919,
+        1079
+      ],
+      "scale": 0.9935125115848007,
+      "zoom": 1.0065298507462688,
+      "retained_canvas_area_fraction": 0.9870671106755388,
+      "aspect_ratio_preserved": true,
+      "sampling_bound": "strict bilinear (also safe for nearest)",
+      "before": {
+        "float_outside_pixels": 9735,
+        "fixed_outside_pixels": 9735
+      },
+      "after": {
+        "float_outside_pixels": 0,
+        "fixed_outside_pixels": 0
+      },
+      "verified_pixels": 2073600,
+      "proof": "Every output center checked using float mapping and exact quantized H/lens arithmetic",
+      "binding": "Valid only for this calibration, base H, effective H and source/output sizes; replan on change",
+      "calibration_metadata": {
+        "status": "trial_hdmi_18mm_calibration",
+        "deploy_to_fpga": false,
+        "profile_id": "canon_r50_18mm_hdmi_1920x1080_20261022_trial",
+        "suggested_use": "Current 18mm HDMI software reference for parameter parsing, inverse mapping and bilinear integration; final optical deployment requires independent fixed-focus verification.",
+        "camera_user_context": {
+          "model": "Canon EOS R50",
+          "source_is_actual_hdmi_capture": true,
+          "capture_device": "VC-002Pro",
+          "focal_length_mm_user_reported": 18.0,
+          "autofocus_area_user_reported": "whole_area",
+          "movie_servo_af": "unconfirmed",
+          "focus_locked": "unconfirmed",
+          "in_camera_lens_correction": "unconfirmed",
+          "stabilization": "unconfirmed"
+        },
+        "video": {
+          "source_path": "/Users/yishuyu/Movies/2026-10-22 13-42-15.mov",
+          "source_sha256": "f316a07484b8166df4db1356034e1789bff5978dd7e96ef6971fece93a246607",
+          "width": 1920,
+          "height": 1080,
+          "fps": 30.0,
+          "duration_s": 64.36666666666666,
+          "frames_total": 1931,
+          "coordinate_policy": "Native H.264 decoded raster, x right / y down; no scaling, cropping or perspective correction before fitting."
+        },
+        "target": {
+          "square_mm": 19.0,
+          "squares": [
+            10,
+            7
+          ],
+          "inner_corners": [
+            9,
+            6
+          ],
+          "square_source": "User measured five squares = 95mm; equality of horizontal and vertical print scale is unconfirmed.",
+          "mounted_on_flat_rigid_board": true,
+          "mounting_evidence": "Confirmed by user during the preceding capture on 2026-10-22."
+        },
+        "evidence": {
+          "sampled_frames": 242,
+          "detected_frames": 197,
+          "quality_eligible_frames": 179,
+          "pose_representatives": 42,
+          "training_frames": 34,
+          "validation_frames": 8,
+          "corners_each": 54,
+          "train_rms_px": 1.3868958072627273,
+          "validation_pose_fit_rms_px": 1.4488382127291448,
+          "pinhole_validation_pose_fit_rms_px": 1.4908334810882906,
+          "held_out_line_rms_raw_px": 0.6532965672336685,
+          "held_out_line_rms_corrected_px": 0.6289863128251233,
+          "leave_one_pose_max_source_map_change_px": 4.199407946511097,
+          "leave_one_pose_max_source_map_change_inside_corner_hull_px": 0.9714446136166229,
+          "training_corner_hull_fraction": 0.6092329237444823,
+          "temporal_block_full_grid_max_map_difference_px": 18.754068107780963,
+          "temporal_block_common_source_hulls_max_map_difference_px": 5.945252378348074,
+          "held_out_line_improved_frames": 7
+        },
+        "mapping_sanity_check": {
+          "grid": [
+            201,
+            121
+          ],
+          "all_finite": true,
+          "jacobian_determinant_min": 0.9183035592979223,
+          "jacobian_determinant_max": 1.01697760790972,
+          "nonpositive_jacobian_points": 0,
+          "radial_mapping_derivative_min": 0.953495807543815,
+          "note": "Sampled analytic local Jacobian, with P=K. Positive samples are a sanity check, not a global accuracy certificate."
+        },
+        "limitations": [
+          "Held-out residual and line straightness improve modestly; they do not establish absolute physical correction accuracy.",
+          "Time-block estimates disagree in source maps, including in their common observed source region; constant full-frame parameters are not independently validated.",
+          "Whole-area AF describes an AF area and does not establish movie-servo state or a locked focus position.",
+          "Different time blocks have different poses, coverage, sample counts and residuals; map disagreement cannot be attributed to AF from these data.",
+          "Image corners are less constrained than the center; the lower-right image corner has the weakest direct corner observations.",
+          "Validation views share a recording session and use their own corners for pose estimation; this is not an independent acquisition or known-ground-truth accuracy test.",
+          "OBS applies no spatial transform in this recording; internal camera/capture-card processing is not established by that fact.",
+          "No MTF50/SFR, hardware timing or FPGA resource measurements were performed in this calibration step."
+        ]
+      }
+    }
+  },
+  "autocrop_build_inputs_sha256": {
+    "examples/r50_18mm_viewport.vh": "9b96114f44f42ef9ae04d55afbb0dc7aab05965970ab2d34492b26899aa00c80",
+    "examples/r50_18mm_viewport.json": "545ca9646cecdda9eb294e207f6eb7340ba36b68ba41312b8d4ba7ead6fff0f4",
+    "examples/lens_autocrop_instance.v": "21a046b1a4b57de6daada6a343f2b023e36292677647af13d61aaae4ae99cd44",
+    "examples/autocrop_files.f": "4ba2745541bd45a9a6ceae442f034243806733a0b0eb0327405bd2b597bc9f09",
+    "calibration/r50_18mm_hdmi_trial.json": "43e70062458e779c6692804b506dab9c43f65aa3844e42867c79463dbb85c38e",
+    "vectors/lens_autocrop.txt": "4653173bdb06513142b99139e167f0fc7798190ecf53d56cbbf443fff9dd5d2a"
+  },
+  "modelsim_script_sha256": "decc90a12b4ad0ac87cc99b0d4b3352e9218cb6b48113ead1d04de387c6e02fb",
+  "modelsim_script_control": {
+    "status": "pass",
+    "tests": 11,
+    "method": "Tcl command stubs; not native ModelSim compilation/simulation"
+  },
+  "v3_compatibility": {
+    "status": "not_requested"
+  },
+  "rtl_syntax": "Verilog-2001 pass; Icarus array sensitivity notices in log",
+  "integration_example_syntax": "Verilog-2001 pass",
+  "lens_example_syntax": "Verilog-2001 pass; explicit H plus lens, no marker detector",
+  "autocrop_example_syntax": "pass; one exported calibration/H/crop binding",
+  "rtl_test_results": {
+    "tb_perspective_coord": {
+      "status": "pass",
+      "marker": "COORD_PASS 4329",
+      "log": "results/tb_perspective_coord.log"
+    },
+    "tb_homography_solver": {
+      "status": "pass",
+      "marker": "SOLVER_PASS 37",
+      "log": "results/tb_homography_solver.log"
+    },
+    "tb_bilinear_interp": {
+      "status": "pass",
+      "marker": "INTERP_PASS 1000",
+      "log": "results/tb_bilinear_interp.log"
+    },
+    "tb_marker_detector": {
+      "status": "pass",
+      "marker": "MARKER_PASS valid=2 rejected=3 dropped=1",
+      "log": "results/tb_marker_detector.log"
+    },
+    "tb_b_rectifier": {
+      "status": "pass",
+      "marker": "VIDEO_PASS pixels=2344 corners=2 rejected=1",
+      "log": "results/tb_b_rectifier.log"
+    },
+    "tb_cache_contract": {
+      "status": "pass",
+      "marker": "CACHE_CONTRACT_PASS main=48 reset_discarded=10 fresh_black=4 continuous_burst=32 queued_variable_delay=yes mixed_modes=yes",
+      "log": "results/tb_cache_contract.log"
+    },
+    "tb_b_integration": {
+      "status": "pass",
+      "marker": "B_INTEGRATION_PASS accepted=3427 requests=3405 responses=3330 outputs=3328 cancelled=99 commits=3 collision=1 corners=3 solves=3",
+      "log": "results/tb_b_integration.log"
+    },
+    "tb_request_boundaries": {
+      "status": "pass",
+      "marker": "BOUNDARIES_PASS sizes=640x480,1920x1080,4096x4096 sparse_addresses=yes edge_black_policy=characterized",
+      "log": "results/tb_request_boundaries.log"
+    },
+    "tb_lens_distort_coord": {
+      "status": "pass",
+      "marker": "LENS_COORD_PASS vectors=530 returned=531 stages=10",
+      "log": "results/tb_lens_distort_coord.log"
+    },
+    "tb_lens_integration": {
+      "status": "pass",
+      "marker": "LENS_INTEGRATION_PASS transactions=835 mixed_modes=yes variable_cache_latency=yes reset_flush=yes",
+      "log": "results/tb_lens_integration.log"
+    },
+    "tb_lens_autocrop": {
+      "status": "pass",
+      "marker": "AUTOCROP_PASS transactions=13046 outside=0 mixed_modes=yes reset_flush=yes",
+      "log": "results/tb_lens_autocrop.log"
+    }
+  },
+  "rtl_status": "pass",
+  "actual_rtl_comparison": {
+    "coordinates": 4329,
+    "interpolations": 1000,
+    "solver_cases": 37,
+    "video_pixels": 2344,
+    "lens_composed_pixels": 835
+  },
+  "source_sha256": {
+    "rtl/b_rectifier.v": "3bf7632448ddf91c0a4c100c534576a52dd2d100fb69f4ecefab04cdeb8681fc",
+    "rtl/bilinear_interp.v": "ac5e9dc73efbbc64f385d2ea50d7e5efee02f057f444ccc4dd7d3f1272091bb6",
+    "rtl/homography_solver.v": "ffd648c0b51a5e6b9378614446a2b62980ce3bdb9897ab2388ada036a914bee9",
+    "rtl/lens_distort_coord.v": "b3d561121c6f16834f5a3ebfb99ac1ff5bbd8570d91fe0b1b4ac32609920a0b4",
+    "rtl/marker_detector.v": "dbb887ecce740c902428246758aeb418cfdba489079078cc70674415f6ba436f",
+    "rtl/perspective_coord.v": "fc0fb7d1ad820aacd54a2ae64d9ed99f8e87e7313b9b1ef5e8b630abea6fd4f3",
+    "rtl/perspective_core.v": "6b98cb7d8cc28e3c192bbcf67cfb3c97c2d3731c6bab95be92017b0047721fa1",
+    "rtl/scaled_div_pipe.v": "372f81d1d1961d9fbc583632feb0ef93124e6b8e6b13423a6ade2ba2e940b741",
+    "rtl/signed_div_seq.v": "2a4e95a1fc77d2eea7f392bf2f4260066eba456d03a7d6c31868c28e0fcb765d",
+    "rtl/unsigned_div_seq.v": "dc12588b771773a9d9492d84bea826166c6ab5d4b3857a0a22949b3445eb05c3",
+    "python/brect/__init__.py": "5835bcb38f8099bb03f52d3faf362d3848e4446bb923a7266cd3651e93e9d29b",
+    "python/brect/calibration.py": "2e6953529dc222846f7c4fe9c412b8979652a133d0ddba7cb5527490a1122e8c",
+    "python/brect/cli.py": "6e78815efd8bde5e9c50cd3b0f9d8a39bde2d4ed8a0eae41007116c9bd430b7e",
+    "python/brect/fixed.py": "5f4114f814e6105c4e1801785ad661431b07d3d37bb7113445beda070fca49a5",
+    "python/brect/golden.py": "f9d75903707cea8ee59f5bc6a25d25afbe8301f11486416c0f0e04d9fb9d21ed",
+    "python/brect/lens.py": "204414c3888c26ec3bd5e0bacfbfadfe4ea4db47c76417c6943422df32e45885",
+    "python/brect/lens_cli.py": "fba8f09a411b617c8a2be7601ca174afb4204eb5e84f05039abfde68f83d7cd3",
+    "python/brect/viewport.py": "ba62a031d16e9e26a8e13fcaa3dc23ea11973b79d5aab7b174e1710dc93caef2",
+    "sim/tb_b_integration.sv": "ad079a43f6f83dc799d0e3ff6d4660f332772528e99181ad287d167735c37a6b",
+    "sim/tb_b_rectifier.sv": "6f4d9115712d8bc877e74f38c44b2429bbd1402127f90c0cb96ac9dfb156c702",
+    "sim/tb_bilinear_interp.sv": "810c183f9713d77edb03eda5bec69f62235a4f10a33a6cb72b2490e6b123f317",
+    "sim/tb_cache_contract.sv": "6702aca2c887c70dac9f5d9e8b8162c7cf84628e3d065407097ae33d3acc58f7",
+    "sim/tb_homography_solver.sv": "807448282e6a1c9f862b8bd34a1e8082ab13e1b67ecc4f560cc0025b80ee8431",
+    "sim/tb_lens_autocrop.sv": "df501156682e7570070482027ef36c6b054cacfa8e51e40b41fe2a755edc3949",
+    "sim/tb_lens_distort_coord.sv": "1e8a163bc77e2d85d9cb7642fc4423e365b1c3be72ee1a3f36d7bbfa84486c46",
+    "sim/tb_lens_integration.sv": "3715038f0d566e670e2e410aca8f0fb148e675134cd05ec811da32c8e8adc5e5",
+    "sim/tb_marker_detector.sv": "b8a34701766730312410038e1fe61bd716429e25bafe4a63360fdf6f5b8c2b93",
+    "sim/tb_perspective_coord.sv": "25e6b5727a30935efab8c36a2e5931997a53143b661af6d477ad6ac6085b0a8d",
+    "sim/tb_request_boundaries.sv": "c56ba95e9b4dd1e7a78e2768236555d7f655e6128cf9187151aa1367c9b17f93",
+    "scripts/export_calibration.py": "f1d67d9eaa301292edad3695b9407fd5fdb56e03974d8650dab80b7566072301",
+    "scripts/export_lens_viewport.py": "4d488de27a8cc02622f2f03e87f0c920d23a037f3a9bc9fd4d4a88effbcfd241",
+    "scripts/generate_autocrop_vectors.py": "333e5421a3932083ba131cb8bbf5c6b363a521a6a7f8792bc355797c7545507a",
+    "scripts/generate_lens_vectors.py": "7545d6724cc613426726bec9af17abb8bb20feca975da0ef1ddc778b805d95ca",
+    "scripts/generate_vectors.py": "b13c0fd637a89380f56fe64a1e19fd483d22e590c5c81e0f9f1846d5894c5ca5",
+    "scripts/make_demo.py": "cf514ce3fc8e9619daf3945fb6421c5f4d4e8c36c67aff58f64707bbd7a9aba4",
+    "scripts/run_checks.py": "01934a2e8a13778bcb92de2c8e45f4765897d616b0af5958fbbb4ebf06e33d07",
+    "scripts/test_lens.py": "919862993dde00a7b3b17064b65bc1e784e443b0d25b19c837df5cbfaf696ba4",
+    "scripts/test_models.py": "b910a29f7006ea33b5a70d7613dcc63002defee981a83b9e49f7f5a199f9e74a",
+    "scripts/test_modelsim_script.py": "6d95e12e453e28fd19ddfbec3a5032526b2bdda752a88f78a17fef5fd9cae4fb",
+    "scripts/test_viewport.py": "cc8ea27112b213520c4cdf8060464c62cf07ea093763d65ad68d5095305c014b"
+  }
+}

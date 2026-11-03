@@ -1,0 +1,12 @@
+test_cli_defaults_to_auto_and_exports_matching_hardware (__main__.ViewportContract.test_cli_defaults_to_auto_and_exports_matching_hardware) ... ok
+test_cropped_output_is_real_data_for_both_samplers (__main__.ViewportContract.test_cropped_output_is_real_data_for_both_samplers) ... ok
+test_identity_has_no_unnecessary_crop (__main__.ViewportContract.test_identity_has_no_unnecessary_crop) ... ok
+test_integer_grid_matches_scalar_including_wide_products (__main__.ViewportContract.test_integer_grid_matches_scalar_including_wide_products) ... ok
+test_no_usable_region_is_an_explicit_error (__main__.ViewportContract.test_no_usable_region_is_an_explicit_error) ... ok
+test_real_1080p_entire_output_has_zero_outside_positions (__main__.ViewportContract.test_real_1080p_entire_output_has_zero_outside_positions) ... ok
+test_rotated_and_perspective_views_are_verified (__main__.ViewportContract.test_rotated_and_perspective_views_are_verified) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.866s
+
+OK

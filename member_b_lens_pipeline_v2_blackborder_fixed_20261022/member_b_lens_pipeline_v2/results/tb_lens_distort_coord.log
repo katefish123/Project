@@ -1,0 +1,2 @@
+LENS_COORD_PASS vectors=530 returned=531 stages=10
+sim/tb_lens_distort_coord.sv:122: $finish called at 11620000 (1ps)

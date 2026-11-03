@@ -1,0 +1,2 @@
+AUTOCROP_PASS transactions=13046 outside=0 mixed_modes=yes reset_flush=yes
+sim/tb_lens_autocrop.sv:120: $finish called at 144490000 (1ps)
