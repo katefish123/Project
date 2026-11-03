@@ -1,1 +1,0 @@
-Full-frame DDR fixture simulation passed.

@@ -1,3 +1,0 @@
-numpy>=1.24
-Pillow>=9
-# Optional --camera mode only: opencv-python>=4.5

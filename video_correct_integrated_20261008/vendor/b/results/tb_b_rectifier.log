@@ -1,2 +1,0 @@
-VIDEO_PASS pixels=2344 corners=2 rejected=1
-sim/tb_b_rectifier.sv:112: $finish called at 147970000 (1ps)

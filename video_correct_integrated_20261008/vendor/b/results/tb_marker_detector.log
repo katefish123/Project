@@ -1,2 +1,0 @@
-MARKER_PASS valid=2 rejected=3 dropped=1
-sim/tb_marker_detector.sv:54: $finish called at 17240000 (1ps)

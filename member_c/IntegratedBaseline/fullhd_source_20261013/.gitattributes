@@ -1,3 +1,0 @@
-# Preserve tool output bytes and evidence hashes.
-release/** -text -whitespace
-overrides/** -text whitespace=cr-at-eol
