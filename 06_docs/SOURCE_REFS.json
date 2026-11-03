@@ -1,0 +1,32 @@
+{
+  "main": {
+    "commit": "cce82c4571a1d311cb828af9c83c731ab0097163",
+    "commit_time": "2026-10-31T23:27:02+08:00",
+    "subject": "docs: align commit identity with GitHub account"
+  },
+  "main-A": {
+    "commit": "d7f364b294be31228f578803bc8da9708d6b25c8",
+    "commit_time": "2026-11-01T21:29:44+08:00",
+    "subject": "Add competition submission materials"
+  },
+  "main-B": {
+    "commit": "510c040f8da06e67f5b9b64f9c851dffeff3a8b0",
+    "commit_time": "2026-10-22T18:14:17+08:00",
+    "subject": "Add files via upload"
+  },
+  "main-C": {
+    "commit": "809c082504230350e3da9c30ac68a16cbd062a89",
+    "commit_time": "2026-10-14T08:44:30+08:00",
+    "subject": "Document integrated first-version handoff and pending board acceptance"
+  },
+  "c-pipeline-next": {
+    "commit": "e7c6e472ec32e51096256ae2e3808ea24d780054",
+    "commit_time": "2026-10-24T19:30:42+08:00",
+    "subject": "Archive full-HD live repair sources, evidence and failed board acceptance"
+  },
+  "snapshot/host-angle-progress-20261101": {
+    "commit": "172a6aa8c274d3e2e36f62666aa80f07d1149c7e",
+    "commit_time": "2026-11-01T09:46:18+08:00",
+    "subject": "Save decongestion experiment and counter proposal at quota stop; unqualified"
+  }
+}
