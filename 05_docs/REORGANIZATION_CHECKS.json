@@ -66,7 +66,7 @@
     "01_final/FPGA_1080p30_20261102/native_project/synthesize/snr.db",
     "01_final/FPGA_1080p30_20261102/native_project/synthesize/video_correct_ddr_top_syn.adf",
     "01_final/FPGA_1080p30_20261102/native_project/synthesize/video_correct_ddr_top_syn.vm",
-    "07_archives/FPGA_1080p30_完整工程_含烧录文件_20261102.zip"
+    "06_archives/FPGA_1080p30_完整工程_含烧录文件_20261102.zip"
   ],
   "lfs_objects": {
     "1f50ae8bdd79e706b3ea7f7ca025b25eb09b3a87c201d7a1b247e750070592f0": 15554392,
@@ -148,5 +148,16 @@
   },
   "fpga_rebuilt": false,
   "board_tested": false,
-  "remote_main_modified": false
+  "remote_main_modified": false,
+  "current_layout_update": {
+    "date": "2026-11-03",
+    "base_commit": "fb2b2404daa19bbd50013b55eaeb7da1eb745ecb",
+    "removed_directory": "05_competition",
+    "removed_files": 60,
+    "renamed_directories": {
+      "06_docs": "05_docs",
+      "07_archives": "06_archives"
+    },
+    "note": "Original validation statistics above describe the initial archive snapshot; current path references are updated for the requested deletion and renumbering."
+  }
 }
