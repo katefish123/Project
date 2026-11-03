@@ -1,0 +1,29 @@
+#last_iteration_critical_path_worst_slack: -3.435 ns.
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N21470} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/N207_m2/gopapm:PI[0];}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N386} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/N207_m3/gopapm:Z[17];}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/N458 [28]} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/N226_m2/gopapm:Y[11];}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/N458 [29]} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/N226_m2/gopapm:Y[12];}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/N458 [31]} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/N226_m2/gopapm:Y[17];}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.square_y [33]} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[7]/opit_0_AQ:I1;}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N26730} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[8]/opit_0_AQ:CIN;}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N26734} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[12]/opit_0_AQ:CIN;}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N26738} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[16]/opit_0_AQ:CIN;}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N26742} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[20]/opit_0_AQ:CIN;}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N26746} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[24]/opit_0_AQ:CIN;}
+def_route -prior_net {core/stream_path/processor/runtime_geometry.algorithm/lens/_N26750} -load {core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2[28]/opit_0_AQ:CIN;}
+def_route -prior_net {engine/N438019 [7]} -load {engine/N480_eq0/LUT6D_inst:I3;}
+def_route -prior_net {_N171347} -load {engine/N275295/gateop:I1;}
+def_route -prior_net {engine/read_index [0]} -load {engine/read_index[0]/opit_0_inv_L5Q:I1;}
+def_route -prior_net {engine/N275295} -load {engine/result_cache[11][88]/opit_0:CE;}
+def_route -prior_net {engine/N275295} -load {engine/result_cache[11][186]/opit_0:CE;}
+def_route -prior_net {engine/N275295} -load {engine/result_cache[11][217]/opit_0:CE;}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/all_group_ca_dly} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_control_path_adj/adj_cke_2/LUT6D_inst:I1;}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [135]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqs_rddata_align/all_group_ca_dly_r2/opit_0_inv_L6QQ:I1;}
+def_route -prior_net {memory_ip/u_ddrphy_top/phy_wrdata_mask [0]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_wdata_path_adj/adj_wrdata_mask_3[3]/LUT6_inst:I2;}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdata_mask [3]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/u_outbuft_dm/opit_1:TX_DATA[3];}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdata_mask [3]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/u_outbuft_dm/opit_1:TX_DATA[4];}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_rdata [58]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqs_rddata_align/rddata_r1[58]/opit_0_inv_srl:D;}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/memory_ip/debug_data_alias [275]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_wdata_path_adj/adj_wrdata_mask_3[69]/LUT6_inst:I1;}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/adj_wrdq [57]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/dq_loop[7].u_iobuf_dq/opit_1:TX_DATA[1];}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/adj_cke [1]} -load {memory_ip/u_ddrphy_top/ddrphy_slice_top/u_outbuft_cke/opit_1:TX_DATA[2];}
+def_route -prior_net {engine/N438020 [9]} -load {service/N195_0/LUT6_inst:I4;}

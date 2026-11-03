@@ -1,0 +1,2483 @@
+ntR10221;core/selftest/N797
+ntR10222;config_bus/u_iic_dri/state_reg [0]
+ntR10223;first_service[3]
+ntR10224;first_service[38]
+ntR10225;core/display_reader/block_data [1864]
+ntR10226;core/display_reader/block_data [1829]
+ntR10227;core/display_reader/block_data [1735]
+ntR10228;core/display_reader/block_data [1174]
+ntR10229;core/continuous_sources/capture/pixel_pack [194]
+ntR10230;engine/native_response [153]
+ntR10231;core/display_reader/block_data [546]
+ntR10232;trace_view/row_word [56]
+ntR10233;core/stream_path/cache/_N201862
+ntR10234;core/stream_path/cache/_N201944
+ntR10235;core/stream_path/cache/_N203426
+ntR10236;core/display_reader/_N66729
+ntR10237;core/continuous_sources/capture/queue[5] [133]
+ntR10238;core/display_reader/_N66657
+ntR10239;trace_view/crossing/held [1150]
+ntR10240;trace_view/crossing/ack_sync [1]
+ntR10241;core/display_reader/_N66148
+ntR10242;core/stream_path/cache/fill_data [612]
+ntR10243;core/stream_path/cache/fill_data [621]
+ntR10244;core/stream_path/cache/fill_data [811]
+ntR10245;display_reset/pipe [1]
+ntR10246;core/display_reader/_N65819
+ntR10247;core/stream_path/cache/fill_data [976]
+ntR10248;core/stream_path/cache/fill_data [977]
+ntR10249;host_control/ack_crc [2]
+ntR10250;diag_write_wait[31]
+ntR10251;diag_write_commands[25]
+ntR10252;diag_write_commands[20]
+ntR10253;core/stream_path/cache/fill_data [1095]
+ntR10254;core/stream_path/cache/fill_data [1324]
+ntR10255;core/stream_path/cache/fill_data [1432]
+ntR10256;host_control/rx/_N200193
+ntR10257;host_control/rx/count [5]
+ntR10258;host_control/rx/count [7]
+ntR10259;core/stream_path/cache/fill_data [1626]
+ntR10260;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [5]
+ntR10261;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [7]
+ntR10262;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [8]
+ntR10263;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [15]
+ntR10264;memory_ip/u_ddrphy_top/ddrphy_dll_update_ctrl/cnt [1]
+ntR10265;memory_ip/u_ddrphy_top/ddrphy_dll_update_ctrl/dll_freeze_cnt [7]
+ntR10266;memory_ip/u_ddrphy_top/ddrphy_dll_update_ctrl/dll_freeze_cnt [17]
+ntR10267;memory_ip/u_ddrphy_top/ddrphy_dll_update_ctrl/state_reg [2]
+ntR10268;core/stream_path/cache/fill_data [1678]
+ntR10269;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [5]
+ntR10270;core/stream_path/processor/wy [11]
+ntR10271;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqs_rddata_align/ck_dqs_diff_r2 [0]
+ntR10272;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data [29]
+ntR10273;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/total_delay_even [0]
+ntR10274;core/stream_path/cache/fill_data [1794]
+ntR10275;core/stream_path/processor/runtime_geometry.algorithm/ny [53]
+ntR10276;core/stream_path/cache/fill_data [1885]
+ntR10277;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_gray_d2 [1]
+ntR10278;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_gray_d2 [1]
+ntR10279;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [0]
+ntR10280;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq_step7_reg [11]
+ntR10281;core/stream_path/cache/fill_data [1985]
+ntR10282;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/_N31709
+ntR10283;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [6]
+ntR10284;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [1]
+ntR10285;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [1]
+ntR10286;core/stream_path/cache/fill_data [2082]
+ntR10287;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqs_rddata_align/rdchk_state0_reg [3]
+ntR10288;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/_N6656
+ntR10289;core/stream_path/cache/fill_data [2277]
+ntR10290;core/stream_path/cache/fill_data [2476]
+ntR10291;core/stream_path/cache/fill_data [2618]
+ntR10292;core/stream_path/cache/fill_data [2676]
+ntR10293;core/stream_path/cache/fill_data [2728]
+ntR10294;core/stream_path/cache/fill_data [2804]
+ntR10295;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqs_rddata_align/_N168236
+ntR10296;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqs_rddata_align/rdchk_state1_reg [1]
+ntR10297;core/stream_path/cache/fill_data [2858]
+ntR10298;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [240]
+ntR10299;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_r [45]
+ntR10300;core/stream_path/cache/fill_data [2950]
+ntR10301;core/stream_path/cache/fill_data [2970]
+ntR10302;core/stream_path/cache/fill_data [3050]
+ntR10303;core/stream_path/cache/fill_data [3054]
+ntR10304;core/stream_path/cache/fill_data [3059]
+ntR10305;service_totals_observer/req_sync [1]
+ntR10306;service/N59 [4]
+ntR10307;recovery/count [21]
+ntR10308;core/continuous_sources/writer/assembly0 [2305]
+ntR10309;proc_first_service[120]
+ntR10310;core/continuous_sources/writer/assembly1 [2067]
+ntR10311;core/stream_path/cache/l_right_a [5]
+ntR10312;core/stream_path/cache/l_right_a [7]
+ntR10313;memory_ip/u_ddrphy_top/phy_wrdata [235]
+ntR10314;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/TRDA2ACT_LOOP[4].trda2act_timing/timing_cnt [3]
+ntR10315;core/stream_path/processor/cycles [15]
+ntR10316;core/stream_path/cache/m_left_offset [1]
+ntR10317;core/stream_path/cache/s_y1 [9]
+ntR10318;core/stream_path/cache/watchdog [2]
+ntR10319;core/stream_path/cache/watchdog [2]
+ntR10320;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/data_1 [21]
+ntR10321;core/stream_path/processor/_N25620
+ntR10322;core/stream_path/processor/_N25816
+ntR10323;core/stream_path/processor/_N25844
+ntR10324;core/stream_path/processor/_N25851
+ntR10325;core/stream_path/processor/_N25895
+ntR10326;core/stream_path/processor/_N25985
+ntR10327;core/stream_path/processor/_N26063
+ntR10328;core/stream_path/processor/_N26101
+ntR10329;core/continuous_sources/writer/assembly0 [3859]
+ntR10330;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/old_row_addr_array[6] [9]
+ntR10331;core/stream_path/cache/watchdog [29]
+ntR10332;core/continuous_sources/writer/assembly0 [3338]
+ntR10333;core/stream_path/processor/accepted [8]
+ntR10334;core/stream_path/cache/tags[77] [2]
+ntR10335;core/stream_path/cache/tags[21] [2]
+ntR10336;core/continuous_sources/writer/assembly1 [624]
+ntR10337;core/stream_path/cache/n_tag [17]
+ntR10338;core/stream_path/cache/n_tag [17]
+ntR10339;core/stream_path/cache/n_tag [15]
+ntR10340;core/continuous_sources/writer/assembly1 [906]
+ntR10341;core/stream_path/cache/n_fy [7]
+ntR10342;core/continuous_sources/writer/assembly0 [3108]
+ntR10343;core/continuous_sources/writer/assembly0 [3095]
+ntR10344;core/stream_path/processor/completed_pixels [12]
+ntR10345;core/continuous_sources/writer/assembly1 [1093]
+ntR10346;core/stream_path/processor/descriptor_count [1]
+ntR10347;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/PRE_PASS_LOOP[6].timing_pre_pass/timing_cnt2 [0]
+ntR10348;core/stream_path/processor/runtime_geometry.algorithm/N33 [21]
+ntR10349;core/continuous_sources/writer/assembly0 [2570]
+ntR10350;core/stream_path/cache/l_tag [21]
+ntR10351;core/continuous_sources/writer/assembly1 [2100]
+ntR10352;core/stream_path/cache/incoming_data [1768]
+ntR10353;core/stream_path/cache/incoming_data [1278]
+ntR10354;core/stream_path/cache/incoming_data [1278]
+ntR10355;recovery/count [26]
+ntR10356;service/N99 [8]
+ntR10357;service_totals_observer/held [12]
+ntR10358;source_first_proc_tick[9]
+ntR10359;core/continuous_sources/writer/assembly1 [2993]
+ntR10360;core/stream_path/cache/fill_data [2877]
+ntR10361;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqs_rddata_align/rdchk_state1_reg [4]
+ntR10362;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqs_rddata_align/gdet_state_reg [1]
+ntR10363;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqs_rddata_align/ck_dqs_diff_r0 [0]
+ntR10364;core/continuous_sources/writer/assembly0 [1892]
+ntR10365;core/continuous_sources/writer/assembly1 [3428]
+ntR10366;core/continuous_sources/writer/assembly0 [1554]
+ntR10367;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/total_delay_odd [7]
+ntR10368;core/stream_path/cache/fill_data [2054]
+ntR10369;core/continuous_sources/writer/assembly1 [4067]
+ntR10370;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_gray_d2 [1]
+ntR10371;core/continuous_sources/writer/assembly0 [1042]
+ntR10372;core/continuous_sources/writer/assembly0 [933]
+ntR10373;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_dq_seq [6]
+ntR10374;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/ck_dly_step [4]
+ntR10375;core/continuous_sources/writer/seen [22]
+ntR10376;core/continuous_sources/writer/written [27]
+ntR10377;core/stream_path/cache/fill_data [1803]
+ntR10378;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/total_delay_odd [3]
+ntR10379;core/continuous_sources/writer/assembly0 [560]
+ntR10380;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/cnt [7]
+ntR10381;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_dq_seq [2]
+ntR10382;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_bin_d [6]
+ntR10383;core/continuous_sources/writer/assembly0 [137]
+ntR10384;core/stream_path/cache/fill_data [1713]
+ntR10385;core/stream_path/cache/fill_data [1706]
+ntR10386;core/stream_path/cache/fill_data [1706]
+ntR10387;core/stream_path/writer/pixels [999]
+ntR10388;core/stream_path/writer/pixels [1381]
+ntR10389;memory_ip/u_ddrphy_top/ddrphy_slice_top/adj_addr [79]
+ntR10390;core/stream_path/writer/qdata [293]
+ntR10391;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_tzqinit [1]
+ntR10392;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t500us [19]
+ntR10393;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t500us [5]
+ntR10394;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [19]
+ntR10395;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [18]
+ntR10396;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t200us [1]
+ntR10397;core/stream_path/cache/fill_data [1547]
+ntR10398;host_control/rx/shift [1]
+ntR10399;host_control/packet_affine [148]
+ntR10400;host_control/packet_affine [135]
+ntR10401;core/stream_path/cache/fill_data [1276]
+ntR10402;host_control/gap_count [29]
+ntR10403;source_history_crossing/held [72]
+ntR10404;core/continuous_sources/credit_crossing/rd_data [27]
+ntR10405;host_affine[141]
+ntR10406;diagnostics_crossing/held [201]
+ntR10407;diagnostics_crossing/held [330]
+ntR10408;host_affine[122]
+ntR10409;host_affine[40]
+ntR10410;hd_count[7]
+ntR10411;full_source_line[3419]
+ntR10412;full_result_block[1831]
+ntR10413;trace_view/crossing/held [864]
+ntR10414;trace_view/crossing/held [1852]
+ntR10415;engine/capture_hold [2613]
+ntR10416;core/display_reader/block_data [924]
+ntR10417;engine/native_response [193]
+ntR10418;core/continuous_sources/capture/pixel_pack [129]
+ntR10419;core/display_reader/block_data [1276]
+ntR10420;core/continuous_sources/capture/pixel_pack [32]
+ntR10421;trace_view/snapshot [494]
+ntR10422;trace_view/snapshot [1160]
+ntR10423;core/stream_path/bridge/requests/fifo/wr_gray [8]
+ntR10424;core/stream_path/bridge/requests/fifo/wr_gray [4]
+ntR10425;core/stream_path/bridge/requests/fifo/rd_gray [4]
+ntR10426;core/stream_path/bridge/raw_payload [135]
+ntR10427;full_result_block[678]
+ntR10428;trace_view/snapshot [1393]
+ntR10429;trace_view/snapshot [1393]
+ntR10430;core/stream_path/bridge/divide_payload [130]
+ntR10431;core/stream_path/bridge/divide_payload [9]
+ntR10432;engine/result_cache[3] [214]
+ntR10433;core/stream_path/bridge/decoded_payload [78]
+ntR10434;full_result_block[286]
+ntR10435;trace_view/snapshot [1843]
+ntR10436;core/modes/published_capture_ms [12]
+ntR10437;angle_mailbox/payload_affine [197]
+ntR10438;core/path_debug_h [138]
+ntR10439;core/path_debug_h [195]
+ntR10440;engine/result_cache[15] [113]
+ntR10441;engine/result_hold [238]
+ntR10442;core/pub_bank
+ntR10443;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t500us [8]
+ntR10444;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_init/cnt_t500us [4]
+ntR10445;core/continuous_sources/manager/capture_ms[0] [19]
+ntR10446;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_wrcal/cnt [8]
+ntR10447;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_wrcal/cnt [12]
+ntR10448;core/stream_path/writer/qdata [1177]
+ntR10449;memory_ip/dfi_wrdata [194]
+ntR10450;memory_ip/u_ddrphy_top/ddrphy_dll_update_ctrl/state_reg [3]
+ntR10451;angle_affine[40]
+ntR10452;memory_ip/u_ddrphy_top/ddrphy_slice_top/adj_addr [21]
+ntR10453;core/stream_path/writer/pixels [997]
+ntR10454;core/stream_path/bridge/decoded_payload [106]
+ntR10455;core/stream_path/bridge/decoded_payload [106]
+ntR10456;host_control/packet_affine [181]
+ntR10457;core/continuous_sources/writer/assembly0 [21]
+ntR10458;host_control/packet_affine [132]
+ntR10459;core/stream_path/writer/pixels [328]
+ntR10460;debug_h[161]
+ntR10461;core/stream_path/writer/acknowledgement_fifo/rg2 [4]
+ntR10462;trace_view/snapshot [1366]
+ntR10463;core/display_reader/block_data [1870]
+ntR10464;angle_mailbox/payload_affine [44]
+ntR10465;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/cnt [0]
+ntR10466;trace_view/snapshot [1294]
+ntR10467;core/continuous_sources/writer/assembly0 [331]
+ntR10468;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_bin_d [1]
+ntR10469;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_bin_d [1]
+ntR10470;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [1]
+ntR10471;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [4]
+ntR10472;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/ck_dly_step [7]
+ntR10473;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [12]
+ntR10474;trace_view/snapshot [1127]
+ntR10475;trace_view/snapshot [1083]
+ntR10476;core/continuous_sources/writer/assembly0 [590]
+ntR10477;core/continuous_sources/writer/assembly0 [591]
+ntR10478;trace_view/snapshot [348]
+ntR10479;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [6]
+ntR10480;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [6]
+ntR10481;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [1]
+ntR10482;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [2]
+ntR10483;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [2]
+ntR10484;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [4]
+ntR10485;core/stream_path/processor/runtime_geometry.algorithm/lens_tag [1]
+ntR10486;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/_N6216
+ntR10487;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data [109]
+ntR10488;core/display_reader/block_data [647]
+ntR10489;core/display_reader/block_data [568]
+ntR10490;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [2]
+ntR10491;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [2]
+ntR10492;core/continuous_sources/writer/assembly0 [1301]
+ntR10493;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [5]
+ntR10494;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqs_rddata_align/rdchk_state1_reg [1]
+ntR10495;trace_view/shown [1848]
+ntR10496;engine/result_cache[9] [52]
+ntR10497;trace_view/shown [1393]
+ntR10498;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/golden_value [6]
+ntR10499;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/nb3 [6]
+ntR10500;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [4]
+ntR10501;full_source_line[2045]
+ntR10502;first_fifo_valid
+ntR10503;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/cnt [7]
+ntR10504;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/total_delay_even [5]
+ntR10505;trace_view/crossing/held [1870]
+ntR10506;engine/result_cache[6] [121]
+ntR10507;core/display_reader/_N67341
+ntR10508;memory_ip/u_ddrphy_top/phy_wrdata [143]
+ntR10509;core/continuous_sources/writer/assembly0 [2149]
+ntR10510;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/PRE_PASS_LOOP[2].timing_pre_pass/timing_cnt1 [1]
+ntR10511;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/tfaw_timing/TFAW_LOOP[0].mcdq_tfaw/timing_cnt [2]
+ntR10512;full_result_block[345]
+ntR10513;engine/result_cache[3] [226]
+ntR10514;core/stream_path/processor/_N77017
+ntR10515;trace_data[1416]
+ntR10516;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/data_0 [28]
+ntR10517;core/stream_path/cache/fill_data [585]
+ntR10518;core/stream_path/g_addr [7]
+ntR10519;status_view/active_segment [0]
+ntR10520;core/display_reader/_N65754
+ntR10521;core/stream_path/cache/tags[83] [2]
+ntR10522;core/stream_path/cache/tags[83] [1]
+ntR10523;source_history_crossing/held [66]
+ntR10524;core/stream_path/cache/tags[61] [3]
+ntR10525;core/stream_path/cache/tags[58] [4]
+ntR10526;core/stream_path/cache/s_right_match [24]
+ntR10527;core/stream_path/cache/fill_data [1700]
+ntR10528;core/stream_path/cache/fill_data [1917]
+ntR10529;engine/native_response [83]
+ntR10530;core/stream_path/cache/n_tag [6]
+ntR10531;core/continuous_sources/writer/assembly1 [1290]
+ntR10532;service_totals_observer/held [109]
+ntR10533;core/continuous_sources/writer/assembly1 [1803]
+ntR10534;core/stream_path/cache/l_left_offset [2]
+ntR10535;core/stream_path/cache/incoming_data [2844]
+ntR10536;recovery/fault_sync [1]
+ntR10537;core/stream_path/cache/incoming_data [1891]
+ntR10538;core/stream_path/cache/incoming_data [1129]
+ntR10539;core/continuous_sources/writer/assembly1 [2379]
+ntR10540;proc_first_service[33]
+ntR10541;core/path_debug_h [192]
+ntR10542;core/path_debug_h [181]
+ntR10543;core/stream_path/cache/incoming_data [1418]
+ntR10544;core/modes/_N70811
+ntR10545;max_first_w[9]
+ntR10546;angle_affine[60]
+ntR10547;proc_source_history[56]
+ntR10548;core/continuous_sources/writer/assembly1 [2634]
+ntR10549;core/stream_path/writer/pixels [1475]
+ntR10550;core/stream_path/writer/pixels [1444]
+ntR10551;core/stream_path/writer/pixels [1423]
+ntR10552;core/stream_path/writer/pixels [1362]
+ntR10553;core/stream_path/writer/pixels [1312]
+ntR10554;core/stream_path/writer/pixels [1269]
+ntR10555;core/stream_path/writer/pixels [1250]
+ntR10556;core/stream_path/writer/pixels [1138]
+ntR10557;core/stream_path/bridge/decoded_payload [107]
+ntR10558;core/stream_path/writer/pixels [866]
+ntR10559;core/stream_path/writer/pixels [752]
+ntR10560;core/stream_path/writer/pixels [745]
+ntR10561;service/N130 [15]
+ntR10562;core/stream_path/writer/pixels [614]
+ntR10563;core/stream_path/writer/pixels [356]
+ntR10564;core/stream_path/writer/pixels [180]
+ntR10565;core/stream_path/writer/pixels [136]
+ntR10566;host_control/packet_affine [46]
+ntR10567;host_control/packet_affine [41]
+ntR10568;core/stream_path/cache/incoming_data [3049]
+ntR10569;core/continuous_sources/writer/assembly1 [2890]
+ntR10570;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/N263 [7]
+ntR10571;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [3]
+ntR10572;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [12]
+ntR10573;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/step_cnt [6]
+ntR10574;core/stream_path/cache/l_tag [23]
+ntR10575;host_affine[196]
+ntR10576;core/continuous_sources/writer/assembly0 [531]
+ntR10577;core/continuous_sources/writer/assembly0 [531]
+ntR10578;core/stream_path/cache/fill_data [2733]
+ntR10579;core/stream_path/cache/m_fy [2]
+ntR10580;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_bin_d [4]
+ntR10581;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [1]
+ntR10582;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [10]
+ntR10583;core/stream_path/cache/fill_data [2472]
+ntR10584;core/stream_path/cache/fill_data [2472]
+ntR10585;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data [101]
+ntR10586;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/delay_cnt [0]
+ntR10587;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [4]
+ntR10588;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [4]
+ntR10589;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [8]
+ntR10590;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dq_step_add [8]
+ntR10591;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [11]
+ntR10592;core/stream_path/cache/fill_data [2279]
+ntR10593;core/stream_path/cache/fill_data [2279]
+ntR10594;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [5]
+ntR10595;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq_step7_reg [2]
+ntR10596;core/continuous_sources/writer/assembly1 [3860]
+ntR10597;core/continuous_sources/writer/assembly0 [1610]
+ntR10598;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [1]
+ntR10599;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [1]
+ntR10600;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [2]
+ntR10601;core/continuous_sources/writer/written [7]
+ntR10602;core/continuous_sources/writer/assembly0 [2058]
+ntR10603;core/stream_path/cache/fill_data [1855]
+ntR10604;core/stream_path/cache/fill_data [1855]
+ntR10605;core/stream_path/cache/fill_data [1855]
+ntR10606;full_source_line[506]
+ntR10607;memory_ip/u_ddrphy_top/ddrphy_training_ctrl/ddrphy_rst_req_d2
+ntR10608;memory_ip/u_ddrphy_top/phy_wrdata [203]
+ntR10609;core/stream_path/cache/fill_data [1703]
+ntR10610;core/continuous_sources/writer/assembly0 [2378]
+ntR10611;core/stream_path/cache/s_tag [18]
+ntR10612;core/display_reader/_N1427
+ntR10613;core/stream_path/cache/tags[0] [1]
+ntR10614;trace_view/crossing/held [1339]
+ntR10615;engine/result_cache[4] [157]
+ntR10616;trace_view/crossing/held [1282]
+ntR10617;core/stream_path/processor/descriptor_count [8]
+ntR10618;memory_ip/u_ips_ddrc_top/mcdq_rdatapath/mcdq_prefetch_fifo/ips2l_distributed_fifo/u_ips2l_distributed_fifo_distributed_fifo_v1_0/rd_addr [0]
+ntR10619;memory_ip/u_ips_ddrc_top/mcdq_rdatapath/mcdq_prefetch_fifo/ips2l_distributed_fifo/u_ips2l_distributed_fifo_distributed_fifo_v1_0/rd_addr [0]
+ntR10620;engine/result_cache[0] [167]
+ntR10621;core/stream_path/processor/_N25824
+ntR10622;core/stream_path/cache_p11 [9]
+ntR10623;core/stream_path/cache/tags[122] [4]
+ntR10624;core/stream_path/cache/tags[107] [10]
+ntR10625;engine/result_cache[1] [96]
+ntR10626;core/stream_path/cache_p11 [12]
+ntR10627;core/stream_path/cache/tags[95] [0]
+ntR10628;core/stream_path/processor/_N25705
+ntR10629;core/stream_path/processor/_N25843
+ntR10630;engine/result_cache[0] [172]
+ntR10631;core/stream_path/cache/tags[59] [4]
+ntR10632;core/continuous_sources/capture/queue[6] [84]
+ntR10633;core/stream_path/cache/tags[30] [3]
+ntR10634;core/stream_path/cache/tags[30] [3]
+ntR10635;core/stream_path/processor/descriptor_stage [83]
+ntR10636;core/stream_path/processor/descriptor_stage [83]
+ntR10637;engine/result_cache[4] [162]
+ntR10638;core/stream_path/cache/tags[14] [1]
+ntR10639;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/TRC_LOOP[6].trc_timing/timing_cnt [0]
+ntR10640;core/continuous_sources/capture/pixel_pack [4]
+ntR10641;config_bus/u_ms7210_tx/dri_cnt [2]
+ntR10642;core/processor_reason_counts [479]
+ntR10643;full_result_block[1367]
+ntR10644;memory_ip/u_ddrphy_top/phy_wrdata [61]
+ntR10645;core/display_reader/_N193150_3
+ntR10646;full_source_line[538]
+ntR10647;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/rdel_ov_even
+ntR10648;first_service[31]
+ntR10649;core/stream_path/processor/runtime_geometry.algorithm/lens/_N1624
+ntR10650;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [10]
+ntR10651;core/stream_path/cache/_N171716
+ntR10652;full_source_line[3868]
+ntR10653;full_source_line[3897]
+ntR10654;config_bus/settle_count [19]
+ntR10655;config_bus/settle_count [15]
+ntR10656;core/stream_path/cache/fill_data [2379]
+ntR10657;core/stream_path/cache/fill_data [2380]
+ntR10658;engine/N60 [166]
+ntR10659;core/stream_path/processor/runtime_geometry.algorithm/lens/tag_pipe[2] [8]
+ntR10660;core/display_reader/block_data [989]
+ntR10661;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [8]
+ntR10662;core/continuous_sources/writer/assembly0 [879]
+ntR10663;engine/result_hold [1348]
+ntR10664;angle_mailbox/payload_affine [206]
+ntR10665;diagnostics_crossing/request
+ntR10666;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [11]
+ntR10667;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/nb4 [1]
+ntR10668;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/nb3 [4]
+ntR10669;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_r [38]
+ntR10670;core/continuous_sources/writer/assembly0 [533]
+ntR10671;core/stream_path/bridge/raw_payload [58]
+ntR10672;core/continuous_sources/data_crossing/fifo/wr_bin_next [6]
+ntR10673;trace_view/snapshot [1407]
+ntR10674;trace_view/snapshot [1614]
+ntR10675;trace_view/snapshot [1614]
+ntR10676;service/cmd_gap [1]
+ntR10677;core/stream_path/writer/pixels [78]
+ntR10678;core/stream_path/writer/pixels [128]
+ntR10679;core/stream_path/writer/pixels [343]
+ntR10680;core/stream_path/writer/pixels [397]
+ntR10681;core/stream_path/writer/pixels [490]
+ntR10682;core/stream_path/writer/pixels [497]
+ntR10683;core/stream_path/writer/pixels [566]
+ntR10684;core/stream_path/writer/pixels [587]
+ntR10685;service/N99 [16]
+ntR10686;core/stream_path/writer/pixels [779]
+ntR10687;core/stream_path/writer/pixels [867]
+ntR10688;core/stream_path/writer/pixels [963]
+ntR10689;core/stream_path/writer/pixels [1026]
+ntR10690;core/stream_path/bridge/decoded_payload [57]
+ntR10691;core/stream_path/writer/pixels [1089]
+ntR10692;core/stream_path/cache/incoming_data [457]
+ntR10693;core/stream_path/writer/pixels [1163]
+ntR10694;core/stream_path/writer/pixels [1169]
+ntR10695;core/stream_path/writer/pixels [1187]
+ntR10696;core/stream_path/writer/pixels [1256]
+ntR10697;core/stream_path/writer/pixels [1298]
+ntR10698;core/stream_path/writer/pixels [1301]
+ntR10699;core/stream_path/writer/pixels [1318]
+ntR10700;core/stream_path/writer/pixels [1417]
+ntR10701;core/stream_path/writer/pixels [1507]
+ntR10702;core/stream_path/bridge/N313 [7]
+ntR10703;core/stream_path/bridge/N313 [6]
+ntR10704;core/stream_path/writer/pixels [1569]
+ntR10705;core/stream_path/writer/pixels [1772]
+ntR10706;core/stream_path/writer/pixels [1808]
+ntR10707;core/stream_path/writer/pixels [1864]
+ntR10708;core/stream_path/writer/pixels [1874]
+ntR10709;core/stream_path/writer/pixels [1933]
+ntR10710;core/stream_path/writer/pixels [1938]
+ntR10711;core/stream_path/writer/pixels [1959]
+ntR10712;memory_ip/u_ddrphy_top/ddrphy_reset_ctrl/cnt [5]
+ntR10713;memory_ip/u_ddrphy_top/ddrphy_reset_ctrl/cnt [5]
+ntR10714;memory_ip/u_ddrphy_top/ddrphy_reset_ctrl/cnt [5]
+ntR10715;engine/result_hold [37]
+ntR10716;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_rdcal/rdcal_success
+ntR10717;core/processor_reason_counts [459]
+ntR10718;core/published_frame_id [16]
+ntR10719;core/processor_reason_counts [463]
+ntR10720;core/processor_reason_counts [467]
+ntR10721;memory_ip/u_ddrphy_top/ddrphy_reset_ctrl/state_reg [3]
+ntR10722;core/continuous_sources/writer/assembly1 [3176]
+ntR10723;core/stream_path/writer/pixels [2001]
+ntR10724;core/stream_path/writer/pixels [1921]
+ntR10725;angle_affine[157]
+ntR10726;core/stream_path/cache/l_left_match [6]
+ntR10727;core/stream_path/writer/pixels [1551]
+ntR10728;core/stream_path/writer/pixels [1480]
+ntR10729;core/stream_path/writer/pixels [1463]
+ntR10730;core/stream_path/cache/l_top_match [61]
+ntR10731;core/stream_path/writer/pixels [1123]
+ntR10732;core/stream_path/writer/pixels [1094]
+ntR10733;core/stream_path/writer/pixels [1036]
+ntR10734;core/stream_path/writer/pixels [935]
+ntR10735;core/stream_path/writer/pixels [789]
+ntR10736;core/continuous_sources/writer/input_packet [271]
+ntR10737;core/stream_path/writer/pixels [534]
+ntR10738;core/stream_path/writer/pixels [499]
+ntR10739;debug_h[120]
+ntR10740;engine/result_cache[13] [19]
+ntR10741;core/stream_path/cache/n_tag [4]
+ntR10742;core/stream_path/cache/n_tag [19]
+ntR10743;core/stream_path/cache/n_tag [19]
+ntR10744;core/stream_path/cache/n_tag [19]
+ntR10745;memory_ip/u_ddrphy_top/ddrphy_slice_top/dqs_read_data [146]
+ntR10746;trace_view/snapshot [1074]
+ntR10747;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [10]
+ntR10748;core/stream_path/cache/tags[14] [3]
+ntR10749;core/stream_path/cache/tags[34] [2]
+ntR10750;core/stream_path/cache/tags[42] [1]
+ntR10751;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [4]
+ntR10752;core/stream_path/cache/tags[60] [0]
+ntR10753;core/stream_path/cache/tags[71] [4]
+ntR10754;core/stream_path/cache/tags[75] [4]
+ntR10755;core/stream_path/cache/tags[105] [3]
+ntR10756;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/ck_dly_step [2]
+ntR10757;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/ck_dly_step [3]
+ntR10758;core/continuous_sources/writer/assembly0 [1355]
+ntR10759;core/continuous_sources/writer/assembly0 [1355]
+ntR10760;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/cnt [0]
+ntR10761;trace_data[1210]
+ntR10762;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/adj_wrdata_mask [0]
+ntR10763;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/golden_value [5]
+ntR10764;first_service[10]
+ntR10765;core/stream_path/processor/issued [13]
+ntR10766;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/PRE_PASS_LOOP[4].timing_pre_pass/timing_cnt2 [3]
+ntR10767;first_service_crossing/held [13]
+ntR10768;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_r [37]
+ntR10769;full_source_line[157]
+ntR10770;first_tick[8]
+ntR10771;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_r [54]
+ntR10772;full_source_line[1307]
+ntR10773;engine/result_cache[4] [140]
+ntR10774;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [0]
+ntR10775;full_source_line[1661]
+ntR10776;memory_ip/u_ips_ddrc_top/mcdq_rdatapath/mcdq_prefetch_fifo/ips2l_distributed_fifo/u_ips2l_distributed_fifo_distributed_fifo_v1_0/u_ips2l_distributed_fifo_ctr/wrptr2_b [4]
+ntR10777;full_source_line[3773]
+ntR10778;engine/result_cache[3] [98]
+ntR10779;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/dqs_gate_pulse_src [1]
+ntR10780;engine/N63 [236]
+ntR10781;core/stream_path/cache/tags[113] [1]
+ntR10782;core/stream_path/cache/tags[71] [3]
+ntR10783;core/stream_path/cache/tags[71] [3]
+ntR10784;core/stream_path/cache/tags[71] [3]
+ntR10785;core/stream_path/cache/tags[64] [14]
+ntR10786;core/stream_path/cache/tags[60] [3]
+ntR10787;core/stream_path/cache/tags[60] [3]
+ntR10788;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [9]
+ntR10789;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [9]
+ntR10790;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [6]
+ntR10791;status_view/_N172606
+ntR10792;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [63]
+ntR10793;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [61]
+ntR10794;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [59]
+ntR10795;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [47]
+ntR10796;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [44]
+ntR10797;core/stream_path/cache/tags[21] [13]
+ntR10798;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [37]
+ntR10799;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [31]
+ntR10800;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [27]
+ntR10801;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/dll_90_gray [7]
+ntR10802;core/stream_path/cache/tags[8] [1]
+ntR10803;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_r [37]
+ntR10804;diagnostics_crossing/held [110]
+ntR10805;core/stream_path/cache/s_x [6]
+ntR10806;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_done_flag
+ntR10807;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [11]
+ntR10808;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/golden_value [4]
+ntR10809;engine/read_lane_hot [7]
+ntR10810;engine/read_lane_hot [3]
+ntR10811;core/stream_path/cache/n_tag [14]
+ntR10812;core/continuous_sources/capture/pixel_pack [226]
+ntR10813;core/stream_path/writer/pixels [430]
+ntR10814;core/stream_path/writer/pixels [448]
+ntR10815;core/stream_path/writer/pixels [469]
+ntR10816;core/continuous_sources/capture/primary_queue_word_alias [246]
+ntR10817;core/stream_path/writer/pixels [716]
+ntR10818;core/stream_path/writer/pixels [1102]
+ntR10819;core/stream_path/writer/pixels [1216]
+ntR10820;core/stream_path/cache/l_right_match [61]
+ntR10821;core/stream_path/writer/pixels [1325]
+ntR10822;core/stream_path/writer/pixels [1506]
+ntR10823;core/stream_path/writer/pixels [1516]
+ntR10824;core/stream_path/writer/pixels [1586]
+ntR10825;core/stream_path/writer/pixels [1935]
+ntR10826;core/stream_path/writer/pixels [1966]
+ntR10827;memory_ip/u_ddrphy_top/ddrphy_slice_top/adj_addr [61]
+ntR10828;core/stream_path/cache/incoming_data [1830]
+ntR10829;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_eyecal/eyecal_state_reg [2]
+ntR10830;core/stream_path/cache/incoming_data [551]
+ntR10831;engine/result_hold [122]
+ntR10832;engine/native_response [57]
+ntR10833;core/stream_path/cache/line_valid [93]
+ntR10834;core/stream_path/cache/line_valid [104]
+ntR10835;core/stream_path/bridge/divide_payload [72]
+ntR10836;core/continuous_sources/capture/pixel_pack [199]
+ntR10837;core/stream_path/writer/pixels [946]
+ntR10838;core/stream_path/writer/pixels [938]
+ntR10839;core/stream_path/writer/pixels [468]
+ntR10840;full_result_block[1328]
+ntR10841;core/stream_path/writer/pixels [271]
+ntR10842;core/stream_path/writer/pixels [177]
+ntR10843;memory_ip/u_ddrphy_top/ddrphy_slice_top/dqs_read_data [64]
+ntR10844;engine/result_cache[0] [154]
+ntR10845;core/stream_path/cache/tags[1] [6]
+ntR10846;core/stream_path/cache/tags[2] [0]
+ntR10847;core/stream_path/cache/tags[2] [1]
+ntR10848;core/stream_path/cache/tags[2] [4]
+ntR10849;core/stream_path/cache/tags[14] [15]
+ntR10850;core/stream_path/cache/tags[18] [0]
+ntR10851;core/stream_path/cache/tags[18] [4]
+ntR10852;trace_view/snapshot [560]
+ntR10853;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_r [39]
+ntR10854;core/stream_path/cache/tags[51] [4]
+ntR10855;core/stream_path/cache/tags[58] [1]
+ntR10856;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [2]
+ntR10857;core/stream_path/cache/tags[60] [2]
+ntR10858;core/stream_path/cache/tags[97] [4]
+ntR10859;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/total_delay_odd [8]
+ntR10860;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_rdata [13]
+ntR10861;core/stream_path/cache/tags[124] [3]
+ntR10862;core/stream_path/cache_p00 [11]
+ntR10863;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/dqs_gate_pulse_r2 [1]
+ntR10864;core/continuous_sources/capture/queue[6] [172]
+ntR10865;engine/result_cache[7] [249]
+ntR10866;core/stream_path/processor/runtime_geometry.algorithm/N139 [22]
+ntR10867;core/stream_path/cache/_N171710
+ntR10868;config_bus/u_iic_dri/trans_bit [0]
+ntR10869;full_source_line[341]
+ntR10870;full_source_line[889]
+ntR10871;full_source_line[1468]
+ntR10872;full_source_line[874]
+ntR10873;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_rdata [37]
+ntR10874;full_source_line[732]
+ntR10875;full_source_line[539]
+ntR10876;core/stream_path/processor/runtime_geometry.algorithm/lens/_N1633
+ntR10877;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [7]
+ntR10878;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [7]
+ntR10879;core/stream_path/processor/responded [2]
+ntR10880;core/stream_path/processor/ox [10]
+ntR10881;core/continuous_sources/writer/assembly0 [1866]
+ntR10882;trace_view/crossing/held [1126]
+ntR10883;core/stream_path/processor/_N26011
+ntR10884;engine/result_cache[9] [56]
+ntR10885;core/display_reader/block_data [440]
+ntR10886;engine/result_cache[3] [125]
+ntR10887;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [1]
+ntR10888;engine/result_cache[10] [125]
+ntR10889;engine/N60 [98]
+ntR10890;core/stream_path/cache/tags[96] [11]
+ntR10891;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [55]
+ntR10892;core/stream_path/cache/tags[59] [0]
+ntR10893;core/stream_path/cache/tags[53] [4]
+ntR10894;core/stream_path/cache/tags[51] [3]
+ntR10895;host_affine[186]
+ntR10896;core/stream_path/cache/tags[33] [2]
+ntR10897;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdqs [0]
+ntR10898;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdqs [0]
+ntR10899;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdqs [0]
+ntR10900;core/stream_path/cache/s_generation [30]
+ntR10901;core/stream_path/bridge/expected10 [26]
+ntR10902;engine/result_hold [816]
+ntR10903;core/stream_path/writer/pixels [1008]
+ntR10904;core/stream_path/cache/m_tag [15]
+ntR10905;core/stream_path/cache/line_valid [61]
+ntR10906;max_first_r[7]
+ntR10907;core/source_reason_counts [384]
+ntR10908;memory_ip/u_ddrphy_top/ddrphy_reset_ctrl/cnt [7]
+ntR10909;memory_ip/u_ddrphy_top/ddrphy_reset_ctrl/cnt [2]
+ntR10910;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/debug_data [48]
+ntR10911;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [58]
+ntR10912;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [1]
+ntR10913;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_check_seq [2]
+ntR10914;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/dll_90_gray [1]
+ntR10915;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [64]
+ntR10916;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [63]
+ntR10917;core/stream_path/cache/tags[109] [2]
+ntR10918;memory_ip/u_ddrphy_top/ddrphy_slice_top/_N171240
+ntR10919;core/stream_path/cache/tags[92] [3]
+ntR10920;core/stream_path/cache/tags[70] [13]
+ntR10921;core/stream_path/cache/tags[69] [3]
+ntR10922;core/stream_path/cache/tags[57] [2]
+ntR10923;core/stream_path/cache/tags[57] [2]
+ntR10924;core/stream_path/cache/tags[53] [1]
+ntR10925;core/stream_path/cache/tags[49] [1]
+ntR10926;core/stream_path/cache/tags[9] [0]
+ntR10927;engine/N60 [211]
+ntR10928;service/r_gap [4]
+ntR10929;core/stream_path/cache/fill_data [1198]
+ntR10930;full_source_line[2696]
+ntR10931;engine/result_cache[10] [110]
+ntR10932;trace_view/crossing/held [1629]
+ntR10933;trace_view/crossing/held [1629]
+ntR10934;core/stream_path/cache/_N173783
+ntR10935;trace_view/row_word [68]
+ntR10936;full_source_line[1238]
+ntR10937;full_source_line[991]
+ntR10938;trace_view/snapshot [800]
+ntR10939;trace_view/snapshot [1169]
+ntR10940;core/stream_path/bridge/expected10 [1]
+ntR10941;core/source_rejected [25]
+ntR10942;core/source_rejected [16]
+ntR10943;core/source_rejected [11]
+ntR10944;core/source_rejected [10]
+ntR10945;engine/result_cache[7] [56]
+ntR10946;engine/result_cache[2] [157]
+ntR10947;engine/result_cache[6] [94]
+ntR10948;core/continuous_sources/capture/queue[7] [224]
+ntR10949;engine/result_cache[5] [59]
+ntR10950;full_source_line[3679]
+ntR10951;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [7]
+ntR10952;service/N130 [30]
+ntR10953;core/stream_path/cache/tags[5] [3]
+ntR10954;core/stream_path/cache/tags[9] [2]
+ntR10955;full_source_line[2770]
+ntR10956;core/stream_path/cache/tags[37] [1]
+ntR10957;engine/result_cache[2] [59]
+ntR10958;memory_ip/u_ddrphy_top/dbg_slice_status [35]
+ntR10959;full_source_line[1754]
+ntR10960;memory_ip/u_ddrphy_top/ddrphy_cpd_ctrl/cpd_offset_cnt [0]
+ntR10961;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data [20]
+ntR10962;core/stream_path/processor/rx [8]
+ntR10963;full_source_line[781]
+ntR10964;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_control_path_adj/phy_odt_r [2]
+ntR10965;core/stream_path/writer/acknowledgement_fifo/wb [4]
+ntR10966;core/stream_path/g_addr [12]
+ntR10967;core/stream_path/processor/active_affine [101]
+ntR10968;core/stream_path/processor/o_addr [1]
+ntR10969;core/stream_path/processor/o_addr [5]
+ntR10970;engine/result_cache[15] [98]
+ntR10971;first_service_crossing/held [89]
+ntR10972;core/stream_path/processor/descriptor_stage [34]
+ntR10973;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [33]
+ntR10974;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [33]
+ntR10975;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [32]
+ntR10976;core/stream_path/processor/descriptor_stage [9]
+ntR10977;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_back_ctrl/timing_act_pass/_N36270
+ntR10978;full_source_line[144]
+ntR10979;full_source_line[156]
+ntR10980;memory_ip/u_ips_ddrc_top/mcdq_rdatapath/mcdq_prefetch_fifo/ips2l_distributed_fifo/u_ips2l_distributed_fifo_distributed_fifo_v1_0/wr_addr [3]
+ntR10981;full_source_line[174]
+ntR10982;core/stream_path/cache/line_valid [92]
+ntR10983;core/stream_path/cache/line_valid [67]
+ntR10984;core/stream_path/cache/tags[5] [1]
+ntR10985;engine/result_cache[14] [250]
+ntR10986;core/stream_path/cache/tags[4] [4]
+ntR10987;core/stream_path/bridge/decoded_payload [24]
+ntR10988;core/display_reader/_N1454
+ntR10989;core/stream_path/cache/incoming_data [2961]
+ntR10990;core/stream_path/cache/tags[65] [5]
+ntR10991;engine/result_cache[5] [97]
+ntR10992;core/stream_path/cache/tags[65] [10]
+ntR10993;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/_N31652
+ntR10994;core/stream_path/cache/tags[66] [1]
+ntR10995;core/stream_path/cache/tags[68] [2]
+ntR10996;service/r_gap [14]
+ntR10997;core/stream_path/cache/tags[73] [2]
+ntR10998;core/stream_path/cache/tags[103] [2]
+ntR10999;core/display_reader/_N787
+ntR11000;full_source_line[3384]
+ntR11001;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [5]
+ntR11002;trace_view/snapshot [251]
+ntR11003;core/display_reader/_N697
+ntR11004;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.x2 [18]
+ntR11005;trace_view/snapshot [1717]
+ntR11006;core/source_reason_counts [448]
+ntR11007;core/processor_reason_counts [408]
+ntR11008;core/processor_reason_counts [404]
+ntR11009;core/processor_reason_counts [400]
+ntR11010;core/processor_reason_counts [392]
+ntR11011;core/processor_reason_counts [388]
+ntR11012;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [14]
+ntR11013;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [6]
+ntR11014;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [37]
+ntR11015;core/stream_path/processor/descriptor_stage [109]
+ntR11016;trace_data[1211]
+ntR11017;engine/result_cache[10] [168]
+ntR11018;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [265]
+ntR11019;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [20]
+ntR11020;core/stream_path/cache/tags[42] [6]
+ntR11021;engine/result_cache[9] [215]
+ntR11022;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_eyecal/N314
+ntR11023;engine/result_cache[1] [90]
+ntR11024;engine/result_cache[9] [184]
+ntR11025;engine/result_cache[9] [159]
+ntR11026;core/stream_path/cache/tags[80] [5]
+ntR11027;engine/result_cache[0] [91]
+ntR11028;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_rdata [20]
+ntR11029;core/stream_path/processor/runtime_geometry.algorithm/sample_ex [0]
+ntR11030;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/rdel_ov_odd
+ntR11031;core/display_reader/_N596
+ntR11032;core/display_reader/_N656
+ntR11033;core/continuous_sources/capture/primary_queue_word_alias [203]
+ntR11034;core/display_reader/_N933
+ntR11035;core/display_reader/_N933
+ntR11036;full_source_line[844]
+ntR11037;trace_view/snapshot [1495]
+ntR11038;core/stream_path/cache/line_valid [76]
+ntR11039;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [230]
+ntR11040;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [235]
+ntR11041;core/stream_path/cache/line_valid [106]
+ntR11042;core/stream_path/cache/line_valid [106]
+ntR11043;core/stream_path/processor/descriptor_stage [15]
+ntR11044;core/continuous_sources/capture/primary_queue_word_alias [72]
+ntR11045;core/stream_path/processor/descriptor_stage [73]
+ntR11046;core/stream_path/bridge/raw_payload [6]
+ntR11047;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data [82]
+ntR11048;core/stream_path/processor/runtime_geometry.algorithm/lens/mapped_x8 [15]
+ntR11049;core/stream_path/cache/l_left_match [15]
+ntR11050;core/stream_path/cache/incoming_data [2878]
+ntR11051;diagnostics/proc_tick [43]
+ntR11052;memory_ip/u_ddrphy_top/ddrphy_cpd_ctrl/cpd_up_d [2]
+ntR11053;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/_N30931
+ntR11054;core/display_reader/req_gen [15]
+ntR11055;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [272]
+ntR11056;full_source_line[1434]
+ntR11057;core/stream_path/processor/active_affine [202]
+ntR11058;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [13]
+ntR11059;core/stream_path/cache/tags[73] [15]
+ntR11060;core/stream_path/cache/tags[73] [15]
+ntR11061;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [58]
+ntR11062;trace_view/shown [641]
+ntR11063;core/stream_path/cache/tags[72] [7]
+ntR11064;core/stream_path/processor/ix [0]
+ntR11065;core/display_reader/_N193154_3
+ntR11066;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_eyecal/cnt_trfc_pass
+ntR11067;core/stream_path/ui_fault_sync [1]
+ntR11068;core/stream_path/cache/tags[56] [15]
+ntR11069;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/dll_90_gray [6]
+ntR11070;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/dqs_even_gray [7]
+ntR11071;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/dqs_odd_gray [1]
+ntR11072;memory_ip/u_ddrphy_top/phy_wrdata [100]
+ntR11073;core/display_reader/_N1495
+ntR11074;trace_view/snapshot [1644]
+ntR11075;core/display_reader/_N1515
+ntR11076;core/stream_path/processor/responded [0]
+ntR11077;core/display_reader/_N193182_3
+ntR11078;core/display_reader/_N193182_3
+ntR11079;core/stream_path/processor/ix [5]
+ntR11080;core/stream_path/processor/descriptor_stage [104]
+ntR11081;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [60]
+ntR11082;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [59]
+ntR11083;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [15]
+ntR11084;core/stream_path/cache/tags[76] [15]
+ntR11085;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [24]
+ntR11086;core/stream_path/processor/active_affine [200]
+ntR11087;service/w_gap [15]
+ntR11088;full_source_line[1497]
+ntR11089;core/stream_path/cache/tags[84] [1]
+ntR11090;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/dqs_gate_vld_r
+ntR11091;engine/result_cache[11] [166]
+ntR11092;memory_ip/u_ddrphy_top/ddrphy_cpd_ctrl/dps_done_d [1]
+ntR11093;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [87]
+ntR11094;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/N997
+ntR11095;core/stream_path/bridge/responses/rd_data [93]
+ntR11096;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/dll_90_bin_d [6]
+ntR11097;memory_ip/u_ddrphy_top/ddrphy_slice_top/dbg_slice_status [21]
+ntR11098;core/stream_path/bridge/decoded_payload [8]
+ntR11099;full_source_line[4024]
+ntR11100;core/stream_path/cache/line_valid [8]
+ntR11101;core/stream_path/cache/tags[123] [15]
+ntR11102;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/N512
+ntR11103;engine/result_cache[12] [180]
+ntR11104;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [127]
+ntR11105;engine/result_cache[3] [46]
+ntR11106;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [41]
+ntR11107;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [42]
+ntR11108;service/cmd_gap [0]
+ntR11109;service/seen_r
+ntR11110;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [23]
+ntR11111;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [21]
+ntR11112;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [17]
+ntR11113;core/stream_path/cache/tags[44] [9]
+ntR11114;core/stream_path/processor/w_addr [13]
+ntR11115;core/stream_path/cache/tags[28] [6]
+ntR11116;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [4]
+ntR11117;core/stream_path/cache/tags[29] [6]
+ntR11118;memory_ip/u_ddrphy_top/phy_odt [0]
+ntR11119;core/display_reader/_N621
+ntR11120;core/stream_path/cache/tags[32] [5]
+ntR11121;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_odd [4]
+ntR11122;core/continuous_sources/writer/input_packet [264]
+ntR11123;status_view/N1503
+ntR11124;core/stream_path/r_tag [2]
+ntR11125;core/stream_path/cache/_N171894
+ntR11126;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/cnt [3]
+ntR11127;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_rdcal/enblk1.rdcal_state_reg [11]
+ntR11128;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [4]
+ntR11129;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [4]
+ntR11130;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [0]
+ntR11131;core/stream_path/cache/tags[80] [15]
+ntR11132;engine/result_cache[6] [167]
+ntR11133;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/dqs_odd_gray [7]
+ntR11134;full_source_line[530]
+ntR11135;core/stream_path/cache/tags[121] [14]
+ntR11136;core/stream_path/cache/line_valid [34]
+ntR11137;core/stream_path/processor/descriptor_stage [110]
+ntR11138;engine/result_cache[4] [164]
+ntR11139;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [93]
+ntR11140;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [93]
+ntR11141;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/_N32110
+ntR11142;full_source_line[2749]
+ntR11143;full_source_line[1494]
+ntR11144;core/display_reader/_N1460
+ntR11145;core/display_reader/_N1004
+ntR11146;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [6]
+ntR11147;core/stream_path/bridge/N321 [2]
+ntR11148;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/N596
+ntR11149;core/stream_path/bridge/decoded_payload [85]
+ntR11150;engine/result_cache[8] [110]
+ntR11151;core/stream_path/cache/s_x1 [5]
+ntR11152;core/display_a [13]
+ntR11153;engine/result_cache[7] [174]
+ntR11154;core/display_a [10]
+ntR11155;core/stream_path/cache/tags[90] [9]
+ntR11156;core/display_reader/_N1180
+ntR11157;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/memory_ip/debug_data_alias [143]
+ntR11158;engine/result_cache[13] [162]
+ntR11159;core/stream_path/cache/tags[76] [5]
+ntR11160;full_source_line[2041]
+ntR11161;full_source_line[3676]
+ntR11162;trace_view/snapshot [484]
+ntR11163;full_source_line[1784]
+ntR11164;core/continuous_sources/writer/seen [8]
+ntR11165;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [88]
+ntR11166;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [7]
+ntR11167;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/adj_wrdq [7]
+ntR11168;core/stream_path/processor/descriptor_stage [101]
+ntR11169;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [94]
+ntR11170;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/_N32138
+ntR11171;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [232]
+ntR11172;full_source_line[1180]
+ntR11173;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_odd [7]
+ntR11174;debug_h[126]
+ntR11175;core/stream_path/cache/tags[3] [15]
+ntR11176;core/stream_path/cache/incoming_data [24]
+ntR11177;core/display_reader/_N595
+ntR11178;core/display_reader/_N588
+ntR11179;core/stream_path/cache/tags[104] [2]
+ntR11180;memory_ip/u_ddrphy_top/wrcal_move_en [0]
+ntR11181;core/stream_path/processor/runtime_geometry.algorithm/N144 [12]
+ntR11182;core/stream_path/cache/tags[98] [0]
+ntR11183;core/display_a [18]
+ntR11184;core/display_reader/_N1171
+ntR11185;core/selftest/sampled_rdata [239]
+ntR11186;core/stream_path/cache/l_right_match [32]
+ntR11187;core/stream_path/cache/l_right_match [22]
+ntR11188;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/dll_90_gray [1]
+ntR11189;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/golden_value [0]
+ntR11190;core/stream_path/processor/active_affine [193]
+ntR11191;full_source_line[331]
+ntR11192;core/stream_path/processor/ix [1]
+ntR11193;core/stream_path/cache/line_valid [66]
+ntR11194;core/stream_path/processor/descriptor_stage [100]
+ntR11195;core/stream_path/processor/descriptor_stage [100]
+ntR11196;core/stream_path/processor/descriptor_stage [100]
+ntR11197;core/stream_path/processor/descriptor_stage [46]
+ntR11198;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_eyecal/cnt [3]
+ntR11199;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.x2 [13]
+ntR11200;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [157]
+ntR11201;memory_ip/u_ddrphy_top/ddrphy_slice_top/dqs_read_data [231]
+ntR11202;core/processor_reason_counts [481]
+ntR11203;trace_data[1161]
+ntR11204;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [28]
+ntR11205;core/stream_path/cache/tags[8] [13]
+ntR11206;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/data_out [14]
+ntR11207;core/display_reader/_N1487
+ntR11208;core/stream_path/cache/line_valid [15]
+ntR11209;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [1]
+ntR11210;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [1]
+ntR11211;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/move_stop_odd
+ntR11212;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [23]
+ntR11213;engine/result_cache[3] [127]
+ntR11214;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [28]
+ntR11215;core/continuous_sources/writer/seen [3]
+ntR11216;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_dq_r [0]
+ntR11217;core/stream_path/processor/cy [4]
+ntR11218;core/display_reader/_N627
+ntR11219;full_source_line[1961]
+ntR11220;core/stream_path/cache/_N44618
+ntR11221;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/N596
+ntR11222;core/stream_path/cache/line_valid [41]
+ntR11223;core/display_reader/_N1233
+ntR11224;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [0]
+ntR11225;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [0]
+ntR11226;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [0]
+ntR11227;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.ty5 [29]
+ntR11228;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [8]
+ntR11229;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [199]
+ntR11230;full_source_line[1708]
+ntR11231;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/N192
+ntR11232;core/stream_path/cache/tags[3] [13]
+ntR11233;core/stream_path/cache/s_right_match [18]
+ntR11234;core/stream_path/cache/tags[67] [10]
+ntR11235;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.xy2 [15]
+ntR11236;memory_ip/u_ips_ddrc_top/mcdq_dcd_top/mcdq_dcd_bm/r_init
+ntR11237;memory_ip/u_ddrphy_top/ddrphy_cpd_ctrl/cpd_state_reg [4]
+ntR11238;core/display_reader/display_gen [1]
+ntR11239;core/stream_path/cache/incoming_data [1137]
+ntR11240;core/display_reader/_N714
+ntR11241;core/continuous_sources/writer/seen [5]
+ntR11242;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [4]
+ntR11243;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [153]
+ntR11244;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_two_yy [30]
+ntR11245;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [225]
+ntR11246;core/stream_path/cache/l_left_match [16]
+ntR11247;core/display_reader/_N730
+ntR11248;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_rdcal/enblk1.rdcal_state_reg [1]
+ntR11249;memory_ip/u_ddrphy_top/phy_addr [9]
+ntR11250;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/idly_set_even [5]
+ntR11251;core/display_reader/_N1030
+ntR11252;core/stream_path/cache/tags[47] [13]
+ntR11253;engine/result_cache[5] [250]
+ntR11254;trace_view/snapshot [1693]
+ntR11255;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/N512
+ntR11256;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data [16]
+ntR11257;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/N192
+ntR11258;engine/result_cache[4] [77]
+ntR11259;core/stream_path/cache/tags[124] [13]
+ntR11260;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq [16]
+ntR11261;trace_view/crossing/held [593]
+ntR11262;full_source_line[1100]
+ntR11263;core/stream_path/cache/incoming_data [2183]
+ntR11264;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [129]
+ntR11265;core/stream_path/processor/active_affine [53]
+ntR11266;core/stream_path/cache/s_top_match [119]
+ntR11267;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/adj_wrdq_en [5]
+ntR11268;core/stream_path/processor/descriptor_stage [49]
+ntR11269;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/_N32492
+ntR11270;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/_N32492
+ntR11271;core/stream_path/processor/iy [6]
+ntR11272;core/display_reader/display_gen [12]
+ntR11273;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.ty4d [15]
+ntR11274;core/display_reader/_N877
+ntR11275;core/display_reader/_N888
+ntR11276;core/stream_path/bridge/N313 [17]
+ntR11277;core/stream_path/bridge/N313 [17]
+ntR11278;core/display_reader/_N998
+ntR11279;core/stream_path/cache/tags[57] [14]
+ntR11280;wdata[46]
+ntR11281;core/stream_path/cache/_N173945
+ntR11282;service/writing_rnmt
+ntR11283;core/stream_path/cache/tags[0] [13]
+ntR11284;core/stream_path/cache/tags[0] [13]
+ntR11285;core/stream_path/cache/tags[0] [14]
+ntR11286;core/stream_path/processor/_N173293
+ntR11287;engine/result_cache[15] [125]
+ntR11288;core/processed_rejected [1]
+ntR11289;core/display_reader/vc [9]
+ntR11290;core/display_reader/_N1364
+ntR11291;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/adj_wrdq [63]
+ntR11292;core/stream_path/cache/tags[108] [2]
+ntR11293;core/display_reader/block_data [1126]
+ntR11294;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/wl_p_dll_gray [6]
+ntR11295;core/stream_path/cache/l_right_match [104]
+ntR11296;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/N108
+ntR11297;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [159]
+ntR11298;core/stream_path/processor/runtime_geometry.algorithm/ny [29]
+ntR11299;core/stream_path/processor/runtime_geometry.algorithm/nb6 [19]
+ntR11300;core/display_reader/_N1518
+ntR11301;core/display_reader/vc [6]
+ntR11302;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/N370
+ntR11303;core/stream_path/processor/runtime_geometry.algorithm/N337 [1]
+ntR11304;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [220]
+ntR11305;core/stream_path/processor/runtime_geometry.algorithm/nb6 [35]
+ntR11306;core/stream_path/cache/l_left_match [24]
+ntR11307;core/stream_path/processor/runtime_geometry.algorithm/nb6 [52]
+ntR11308;core/display_reader/_N1486
+ntR11309;core/stream_path/cache/incoming_data [1231]
+ntR11310;core/stream_path/cache/tags[26] [13]
+ntR11311;full_source_line[2738]
+ntR11312;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [161]
+ntR11313;full_source_line[83]
+ntR11314;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrlvl/vld_init_cnt [0]
+ntR11315;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_wrcal/memory_ip/debug_data [130]
+ntR11316;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/dqs_gate_vld_r
+ntR11317;core/continuous_sources/writer/seen [7]
+ntR11318;core/stream_path/processor/active_affine [181]
+ntR11319;memory_ip/u_ddrphy_top/ddrphy_slice_top/ck_check_done_tmp [1]
+ntR11320;memory_ip/u_ddrphy_top/ddrphy_slice_top/ck_check_done_tmp [1]
+ntR11321;core/display_reader/_N741
+ntR11322;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/adj_wrdqs [2]
+ntR11323;core/stream_path/cache/s_left_match [18]
+ntR11324;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/move_stop_odd
+ntR11325;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_rdata [46]
+ntR11326;core/stream_path/processor/runtime_geometry.algorithm/v1
+ntR11327;memory_ip/u_ips_ddrc_top/mcdq_dcd_top/dec_new_valid
+ntR11328;core/stream_path/processor/runtime_geometry.algorithm/N36 [19]
+ntR11329;core/stream_path/processor/runtime_geometry.algorithm/N36 [16]
+ntR11330;core/stream_path/bridge/packet_payload [121]
+ntR11331;core/stream_path/cache/incoming_data [2765]
+ntR11332;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [0]
+ntR11333;trace_view/crossing/held [162]
+ntR11334;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [227]
+ntR11335;memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [227]
+ntR11336;core/stream_path/processor/out_rgb [2]
+ntR11337;full_source_line[4084]
+ntR11338;core/stream_path/processor/runtime_geometry.algorithm/ny [19]
+ntR11339;core/stream_path/cache/tags[106] [0]
+ntR11340;core/display_reader/_N1485
+ntR11341;core/display_reader/_N1492
+ntR11342;core/display_reader/_N1516
+ntR11343;trace_view/crossing/held [1652]
+ntR11344;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/adj_wrdq [4]
+ntR11345;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/adj_wrdq [5]
+ntR11346;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/adj_wrdq [28]
+ntR11347;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y2 [24]
+ntR11348;trace_view/_N34513
+ntR11349;engine/result_cache[1] [122]
+ntR11350;core/display_reader/_N1356
+ntR11351;engine/result_cache[5] [105]
+ntR11352;core/stream_path/processor/runtime_geometry.algorithm/ny [20]
+ntR11353;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [164]
+ntR11354;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/adj_wrdq [1]
+ntR11355;engine/result_cache[4] [242]
+ntR11356;trace_view/crossing/held [170]
+ntR11357;core/stream_path/cache/incoming_data [2473]
+ntR11358;core/selftest/lane_match [30]
+ntR11359;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.norm_x0 [48]
+ntR11360;full_source_line[1118]
+ntR11361;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.ty_p1_3 [50]
+ntR11362;core/stream_path/processor/runtime_geometry.algorithm/N36 [9]
+ntR11363;trace_view/shown [1455]
+ntR11364;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/adj_wrdq [51]
+ntR11365;trace_view/snapshot [1080]
+ntR11366;config_bus/u_ms7200_rx/_N169720
+ntR11367;core/processor_reason_counts [422]
+ntR11368;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_slice_rddata_align/dqs_read_data_r [254]
+ntR11369;core/selftest/state_reg [6]
+ntR11370;full_source_line[2867]
+ntR11371;trace_view/_N35194
+ntR11372;core/stream_path/cache/line_valid [97]
+ntR11373;core/processor_reason_counts [436]
+ntR11374;core/display_reader/_N66717
+ntR11375;core/stream_path/cache/tags[1] [2]
+ntR11376;status_view/next_group [4]
+ntR11377;status_view/next_group [4]
+ntR11378;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/dqs_gate_ctrl [2]
+ntR11379;core/display_reader/_N811
+ntR11380;core/display_reader/_N1484
+ntR11381;trace_view/snapshot [282]
+ntR11382;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [4]
+ntR11383;max_cmd_wait[14]
+ntR11384;core/display_reader/_N212357
+ntR11385;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.norm_x0 [38]
+ntR11386;full_source_line[222]
+ntR11387;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.square_x [30]
+ntR11388;core/stream_path/cache/tags[64] [5]
+ntR11389;full_source_line[691]
+ntR11390;core/stream_path/write_addr [23]
+ntR11391;full_source_line[2547]
+ntR11392;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/memory_ip/debug_data_alias [165]
+ntR11393;engine/result_cache[6] [108]
+ntR11394;core/stream_path/cache/odd_b [143]
+ntR11395;trace_view/shown [1620]
+ntR11396;core/time_ms [31]
+ntR11397;core/time_ms [27]
+ntR11398;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/N598
+ntR11399;core/time_ms [23]
+ntR11400;core/stream_path/processor/runtime_geometry.algorithm/N19 [28]
+ntR11401;core/stream_path/cache/N21584
+ntR11402;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.ty5 [21]
+ntR11403;core/processed_rejected [30]
+ntR11404;full_source_line[3685]
+ntR11405;core/stream_path/processor/active_affine [147]
+ntR11406;core/stream_path/cache/tags[32] [8]
+ntR11407;core/stream_path/cache/incoming_data [653]
+ntR11408;core/stream_path/cache/l_right_match [69]
+ntR11409;full_source_line[2774]
+ntR11410;full_source_line[3318]
+ntR11411;engine/result_cache[11] [8]
+ntR11412;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/dqs_gate_ctrl [3]
+ntR11413;trace_view/crossing/held [862]
+ntR11414;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/dq_vld
+ntR11415;core/stream_path/cache/l_right_match [11]
+ntR11416;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/memory_ip/debug_data [207]
+ntR11417;full_source_line[3541]
+ntR11418;memory_ip/u_ddrphy_top/u_ips2l_ddrphy_rst_clk_phase_adj/cpd_state_reg [4]
+ntR11419;core/stream_path/cache/incoming_data [628]
+ntR11420;core/stream_path/writer/N420
+ntR11421;core/stream_path/writer/N420
+ntR11422;core/stream_path/processor/runtime_geometry.algorithm/interp/N58 [1]
+ntR11423;core/stream_path/cache/N30867 [14]
+ntR11424;host_control/N981
+ntR11425;full_source_line[99]
+ntR11426;engine/result_cache[2] [230]
+ntR11427;full_source_line[3798]
+ntR11428;engine/result_cache[4] [104]
+ntR11429;core/stream_path/cache/incoming_data [1176]
+ntR11430;trace_view/shown [1500]
+ntR11431;full_source_line[2805]
+ntR11432;core/stream_path/r_tag [16]
+ntR11433;core/source_reason_counts [480]
+ntR11434;wdata[250]
+ntR11435;max_r_gap[23]
+ntR11436;core/stream_path/processor/descriptor_stage [16]
+ntR11437;core/stream_path/processor/descriptor_stage [114]
+ntR11438;core/stream_path/cache/l_right_match [68]
+ntR11439;core/stream_path/writer/N374
+ntR11440;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_rdata [7]
+ntR11441;core/ui_mux/owner [0]
+ntR11442;full_source_line[3149]
+ntR11443;core/stream_path/cache/incoming_data [1624]
+ntR11444;full_source_line[107]
+ntR11445;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_slice_rddata_align/dqs_read_data_r [89]
+ntR11446;trace_view/snapshot [451]
+ntR11447;trace_view/shown [1575]
+ntR11448;core/selftest/sampled_rdata [249]
+ntR11449;engine/result_cache[3] [242]
+ntR11450;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/N197_rnmt
+ntR11451;core/stream_path/cache/incoming_data [3035]
+ntR11452;trace_view/shown [1736]
+ntR11453;full_source_line[3999]
+ntR11454;engine/watchdog_count [10]
+ntR11455;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_slice_rddata_align/dqs_read_data_r [90]
+ntR11456;core/stream_path/cache/incoming_data [1036]
+ntR11457;core/stream_path/cache/incoming_data [2539]
+ntR11458;trace_view/snapshot [300]
+ntR11459;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_rdata [59]
+ntR11460;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.x3d [1]
+ntR11461;core/stream_path/cache/incoming_data [2681]
+ntR11462;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/state_reg [4]
+ntR11463;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/cnt [2]
+ntR11464;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_rdata [55]
+ntR11465;engine/result_cache[1] [223]
+ntR11466;memory_ip/u_ddrphy_top/ddrphy_slice_top/dbg_slice_status [2]
+ntR11467;full_source_line[3688]
+ntR11468;core/stream_path/cache/s_bottom_match [2]
+ntR11469;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_rdata [58]
+ntR11470;full_source_line[4086]
+ntR11471;core/stream_path/cache/incoming_data [2894]
+ntR11472;core/stream_path/cache/incoming_data [2894]
+ntR11473;core/display_reader/block_data [2037]
+ntR11474;core/stream_path/cache/incoming_data [2510]
+ntR11475;core/stream_path/cache/N21547
+ntR11476;core/display_reader/_N211452
+ntR11477;core/stream_path/cache/s_left_match [69]
+ntR11478;core/display_reader/N760
+ntR11479;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/adj_wrdq [4]
+ntR11480;full_source_line[3831]
+ntR11481;core/stream_path/cache/incoming_data [1171]
+ntR11482;core/display_reader/block_data [2030]
+ntR11483;core/stream_path/cache/N25395
+ntR11484;core/stream_path/processor/runtime_geometry.algorithm/N341 [3]
+ntR11485;full_source_line[2667]
+ntR11486;core/continuous_sources/capture/word_addr [3]
+ntR11487;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/rdel_rvalid1
+ntR11488;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_slice_rddata_align/dqs_read_data_r [144]
+ntR11489;full_source_line[1997]
+ntR11490;core/stream_path/cache/incoming_data [1553]
+ntR11491;core/stream_path/cache/incoming_data [2080]
+ntR11492;core/stream_path/cache/incoming_data [406]
+ntR11493;core/stream_path/cache/incoming_data [470]
+ntR11494;core/stream_path/cache/incoming_data [1799]
+ntR11495;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_rdata [17]
+ntR11496;full_source_line[2535]
+ntR11497;core/stream_path/cache/incoming_data [1991]
+ntR11498;engine/result_cache[1] [222]
+ntR11499;engine/result_cache[1] [95]
+ntR11500;full_source_line[307]
+ntR11501;core/stream_path/bridge/requests/fifo/rd_bin [6]
+ntR11502;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_rdata [14]
+ntR11503;trace_view/crossing/held [1743]
+ntR11504;full_source_line[2135]
+ntR11505;full_source_line[2135]
+ntR11506;core/stream_path/processor/_N173035
+ntR11507;core/N595
+ntR11508;core/stream_path/processor/runtime_geometry.algorithm/ty0 [27]
+ntR11509;core/display_reader/_N66978
+ntR11510;full_source_line[353]
+ntR11511;full_source_line[1492]
+ntR11512;full_source_line[1485]
+ntR11513;full_source_line[1485]
+ntR11514;core/stream_path/processor/_N29590
+ntR11515;core/stream_path/cache/l_left_match [106]
+ntR11516;trace_view/crossing/held [1554]
+ntR11517;core/stream_path/cache/incoming_data [2513]
+ntR11518;core/stream_path/cache/incoming_data [2877]
+ntR11519;full_source_line[3584]
+ntR11520;trace_view/crossing/held [1498]
+ntR11521;trace_view/crossing/held [1498]
+ntR11522;core/stream_path/writer/N399
+ntR11523;core/stream_path/writer/N399
+ntR11524;trace_view/crossing/held [1582]
+ntR11525;core/stream_path/cache/incoming_data [1771]
+ntR11526;full_source_line[2925]
+ntR11527;core/display_reader/block_data [1291]
+ntR11528;full_source_line[2800]
+ntR11529;core/stream_path/cache/incoming_data [2650]
+ntR11530;core/stream_path/processor/runtime_geometry.algorithm/N55 [17]
+ntR11531;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.x3d [17]
+ntR11532;max_first_r[22]
+ntR11533;full_source_line[1613]
+ntR11534;full_source_line[527]
+ntR11535;full_source_line[3558]
+ntR11536;core/stream_path/processor/runtime_geometry.algorithm/N55 [21]
+ntR11537;full_source_line[329]
+ntR11538;full_source_line[2673]
+ntR11539;trace_view/shown [1703]
+ntR11540;core/stream_path/cache/incoming_data [2945]
+ntR11541;core/stream_path/cache/incoming_data [3040]
+ntR11542;core/continuous_sources/completion_crossing/tail [0]
+ntR11543;core/stream_path/cache/incoming_data [341]
+ntR11544;full_source_line[3345]
+ntR11545;full_source_line[3924]
+ntR11546;awaddr[19]
+ntR11547;full_source_line[3181]
+ntR11548;core/stream_path/processor/runtime_geometry.algorithm/N55 [25]
+ntR11549;core/stream_path/processor/runtime_geometry.algorithm/N55 [25]
+ntR11550;full_source_line[3920]
+ntR11551;full_source_line[3154]
+ntR11552;full_source_line[3154]
+ntR11553;core/selftest/sampled_rdata [141]
+ntR11554;core/stream_path/processor/runtime_geometry.algorithm/N55 [26]
+ntR11555;core/selftest/sampled_rdata [24]
+ntR11556;core/stream_path/bridge/packet_payload [21]
+ntR11557;full_source_line[2572]
+ntR11558;full_source_line[1378]
+ntR11559;full_source_line[1353]
+ntR11560;core/stream_path/bridge/packet_payload [24]
+ntR11561;core/stream_path/cache/incoming_data [2098]
+ntR11562;core/stream_path/writer/N390
+ntR11563;core/stream_path/writer/N390
+ntR11564;core/stream_path/writer/N390
+ntR11565;core/stream_path/bridge/N321 [17]
+ntR11566;core/stream_path/bridge/N321 [17]
+ntR11567;full_source_line[3666]
+ntR11568;engine/N2917
+ntR11569;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_gatecal/N190
+ntR11570;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_dly_pass
+ntR11571;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wrlvl_ck_dly_pass
+ntR11572;full_source_line[1344]
+ntR11573;core/stream_path/writer/N392
+ntR11574;core/stream_path/writer/N392
+ntR11575;core/stream_path/writer/N392
+ntR11576;core/stream_path/cache/incoming_data [8]
+ntR11577;core/stream_path/cache/incoming_data [2132]
+ntR11578;full_source_line[725]
+ntR11579;awaddr[11]
+ntR11580;trace_view/crossing/held [1875]
+ntR11581;trace_view/crossing/held [1875]
+ntR11582;trace_view/crossing/held [1875]
+ntR11583;core/selftest/sampled_rdata [92]
+ntR11584;full_source_line[5]
+ntR11585;full_source_line[2158]
+ntR11586;core/stream_path/cache/l_left_match [74]
+ntR11587;full_source_line[2029]
+ntR11588;recovery/_N30158_inv
+ntR11589;full_source_line[1623]
+ntR11590;full_source_line[1766]
+ntR11591;core/selftest/sampled_rdata [143]
+ntR11592;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_rdata [34]
+ntR11593;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_rdata [34]
+ntR11594;full_source_line[2161]
+ntR11595;core/stream_path/cache/incoming_data [1411]
+ntR11596;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y3d [15]
+ntR11597;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y3d [15]
+ntR11598;core/stream_path/writer/N400
+ntR11599;core/stream_path/writer/N400
+ntR11600;full_source_line[3052]
+ntR11601;full_source_line[1263]
+ntR11602;wdata[142]
+ntR11603;full_source_line[1257]
+ntR11604;core/continuous_sources/allocation_crossing/head [0]
+ntR11605;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y3d [4]
+ntR11606;memory_ip/u_ddrphy_top/ddrphy_calib_top/ddrphy_wrcal/cnt [2]
+ntR11607;full_source_line[3668]
+ntR11608;core/stream_path/processor/_N183429_1
+ntR11609;core/stream_path/cache/l_right_match [84]
+ntR11610;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/A_ips2l_distributed_fifo/u_ips2l_distributed_fifo_distributed_fifo_v1_0/wr_addr [1]
+ntR11611;max_r_gap[14]
+ntR11612;trace_view/shown [1708]
+ntR11613;core/stream_path/cache/incoming_data [392]
+ntR11614;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/state_reg [4]
+ntR11615;core/stream_path/writer/N358_inv_1
+ntR11616;core/stream_path/bridge/responses/fifo/wr_bin [5]
+ntR11617;max_cmd_wait[22]
+ntR11618;core/stream_path/cache/line_valid [47]
+ntR11619;full_source_line[3184]
+ntR11620;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y3d [0]
+ntR11621;memory_ip/u_ddrphy_top/ddrphy_calib_top/wrcal_wrdata [0]
+ntR11622;core/selftest/sampled_rdata [222]
+ntR11623;core/stream_path/processor/descriptor_stage_valid
+ntR11624;core/stream_path/processor/descriptor_stage_valid
+ntR11625;core/stream_path/processor/descriptor_stage_valid
+ntR11626;max_cmd_wait[25]
+ntR11627;full_source_line[1296]
+ntR11628;full_source_line[2282]
+ntR11629;full_source_line[2282]
+ntR11630;full_source_line[2282]
+ntR11631;wdata[139]
+ntR11632;memory_ip/u_ddrphy_top/ddrphy_slice_top/dqs_read_data [251]
+ntR11633;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [7]
+ntR11634;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [7]
+ntR11635;full_source_line[2642]
+ntR11636;core/display_reader/block_data [155]
+ntR11637;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y3d [13]
+ntR11638;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [4]
+ntR11639;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [3]
+ntR11640;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/poll
+ntR11641;core/stream_path/cache/incoming_data [545]
+ntR11642;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_wdata_path_adj/N648 [0]
+ntR11643;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [6]
+ntR11644;config_bus/u_ms7200_rx/_N171469
+ntR11645;core/stream_path/cache/incoming_data [665]
+ntR11646;trace_view/snapshot [113]
+ntR11647;core/stream_path/cache/l_bottom_match [86]
+ntR11648;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [8]
+ntR11649;config_bus/u_ms7210_tx/state_reg [1]
+ntR11650;core/stream_path/writer/N368
+ntR11651;full_source_line[113]
+ntR11652;core/stream_path/processor/runtime_geometry.algorithm/py0 [53]
+ntR11653;full_source_line[1135]
+ntR11654;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.y3d [9]
+ntR11655;core/stream_path/processor/runtime_geometry.algorithm/lens/N443 [9]
+ntR11656;core/stream_path/cache/s_top_match [79]
+ntR11657;core/stream_path/cache/s_right_match [97]
+ntR11658;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [0]
+ntR11659;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrcal/state_reg [0]
+ntR11660;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [5]
+ntR11661;full_source_line[620]
+ntR11662;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [11]
+ntR11663;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [10]
+ntR11664;full_source_line[76]
+ntR11665;physical_de_q
+ntR11666;physical_de_q
+ntR11667;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [25]
+ntR11668;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [27]
+ntR11669;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [27]
+ntR11670;core/stream_path/cache/incoming_data [2156]
+ntR11671;full_source_line[3859]
+ntR11672;memory_ip/u_ddrphy_top/phy_we_n [0]
+ntR11673;memory_ip/u_ddrphy_top/ddrphy_slice_top/dbg_slice_status [38]
+ntR11674;full_source_line[4082]
+ntR11675;core/stream_path/cache/N25913
+ntR11676;max_cmd_wait[21]
+ntR11677;core/stream_path/cache/s_right_match [81]
+ntR11678;core/stream_path/cache/s_top_match [98]
+ntR11679;full_source_line[368]
+ntR11680;core/stream_path/cache/N23767
+ntR11681;core/stream_path/cache/incoming_data [2727]
+ntR11682;full_source_line[1632]
+ntR11683;full_source_line[3057]
+ntR11684;core/stream_path/processor/descriptor_stage [112]
+ntR11685;core/stream_path/processor/descriptor_stage [112]
+ntR11686;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/coarse_slip_step [1]
+ntR11687;core/display_reader/line_lane_q [0]
+ntR11688;core/display_reader/line_lane_q [0]
+ntR11689;full_source_line[1768]
+ntR11690;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/B_ips2l_distributed_fifo/u_ips2l_distributed_fifo_distributed_fifo_v1_0/wr_addr [1]
+ntR11691;core/stream_path/writer/N391
+ntR11692;core/stream_path/writer/N391
+ntR11693;full_source_line[488]
+ntR11694;core/stream_path/cache/fill_data [85]
+ntR11695;core/selftest/index [19]
+ntR11696;core/stream_path/writer/N414
+ntR11697;core/stream_path/cache/incoming_data [1899]
+ntR11698;core/stream_path/cache/incoming_data [1514]
+ntR11699;full_source_line[1478]
+ntR11700;core/stream_path/cache/incoming_data [1663]
+ntR11701;full_source_line[823]
+ntR11702;core/display_reader/pixel_de
+ntR11703;core/stream_path/w_rsp_valid
+ntR11704;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[3].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [6]
+ntR11705;full_source_line[996]
+ntR11706;engine/response_kind_reg [1]
+ntR11707;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_len [0]
+ntR11708;full_source_line[4011]
+ntR11709;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [6]
+ntR11710;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_wrlvl/wl_state_reg [6]
+ntR11711;engine/pipe_rdata [152]
+ntR11712;full_source_line[230]
+ntR11713;core/stream_path/writer/N417
+ntR11714;full_source_line[1252]
+ntR11715;core/stream_path/cache/incoming_data [1851]
+ntR11716;full_source_line[3497]
+ntR11717;full_source_line[3500]
+ntR11718;full_source_line[686]
+ntR11719;core/stream_path/cache/incoming_data [1295]
+ntR11720;full_source_line[944]
+ntR11721;full_source_line[227]
+ntR11722;full_source_line[1704]
+ntR11723;full_source_line[4072]
+ntR11724;engine/state_reg [4]
+ntR11725;core/display_reader/block_data [71]
+ntR11726;core/stream_path/cache/incoming_data [1846]
+ntR11727;engine/state_reg [2]
+ntR11728;engine/state_reg [2]
+ntR11729;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_len [1]
+ntR11730;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_len [1]
+ntR11731;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_len [1]
+ntR11732;core/display_v
+ntR11733;core/stream_path/cache/incoming_data [2022]
+ntR11734;core/stream_path/cache/incoming_data [311]
+ntR11735;memory_ip/u_ddrphy_top/phy_pll_rst
+ntR11736;core/display_reader/_N193141_2
+ntR11737;core/stream_path/cache/l_bottom_match [120]
+ntR11738;core/stream_path/cache/incoming_data [508]
+ntR11739;core/display_reader/block_data [208]
+ntR11740;full_source_line[1716]
+ntR11741;core/stream_path/writer/N384
+ntR11742;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/read_cmd_mux_r1 [2]
+ntR11743;core/stream_path/cache/_N172826
+ntR11744;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_data_slice_dqs_gate_cal/ddrphy_dqs_gate_coarse_cal/N192_inv
+ntR11745;status_view/shown [2]
+ntR11746;full_source_line[951]
+ntR11747;full_source_line[951]
+ntR11748;engine/pipe_rdata [156]
+ntR11749;engine/pipe_rdata [156]
+ntR11750;engine/pipe_rdata [156]
+ntR11751;core/stream_path/processor/runtime_geometry.algorithm/inside_now
+ntR11752;rx_rgb_q[15]
+ntR11753;core/stream_path/bridge_fault
+ntR11754;core/continuous_sources/credit_crossing/fifo/rd_bin [1]
+ntR11755;engine/pipe_rdata [158]
+ntR11756;engine/pipe_rdata [21]
+ntR11757;host_control/rx/state_reg [2]
+ntR11758;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N203
+ntR11759;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N203
+ntR11760;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N203
+ntR11761;engine/pipe_rdata [206]
+ntR11762;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/mcdq_dcp_buf/N217
+ntR11763;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[2].ddrphy_data_slice/ddrphy_dqsi_rdel_cal/state_reg [0]
+ntR11764;core/continuous_sources/data_crossing/fifo/wr_release [1]
+ntR11765;status_on
+ntR11766;engine/pipe_rdata [221]
+ntR11767;engine/pipe_rdata [221]
+ntR11768;engine/pipe_rdata [221]
+ntR11769;engine/pipe_rdata [157]
+ntR11770;engine/pipe_rdata [157]
+ntR11771;engine/pipe_rdata [157]
+ntR11772;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/mcdq_reg_fifo2/rptr
+ntR11773;engine/pipe_rdata [155]
+ntR11774;core/display_reader/burst_index [7]
+ntR11775;core/stream_path/processor/_N29578
+ntR11776;core/stream_path/processor/_N29578
+ntR11777;core/stream_path/processor/_N29578
+ntR11778;core/stream_path/processor/_N29578
+ntR11779;core/display_reader/burst_index [2]
+ntR11780;core/stream_path/cache/_N172820
+ntR11781;core/continuous_sources/manager/writer_reason[0] [2]
+ntR11782;core/display_reader/scan_x [9]
+ntR11783;core/display_reader/burst_index [0]
+ntR11784;core/display_reader/burst_index [3]
+ntR11785;core/display_reader/burst_index [3]
+ntR11786;core/display_reader/burst_index [1]
+ntR11787;core/continuous_sources/capture/N179
+ntR11788;engine/pipe_rdata [159]
+ntR11789;core/display_reader/req_sync_ui [2]
+ntR11790;rx_rgb_q[7]
+ntR11791;core/stream_path/processor/N562
+ntR11792;core/stream_path/processor/N562
+ntR11793;rx_rgb_q[10]
+ntR11794;engine/pipe_rdata [74]
+ntR11795;engine/pipe_rdata [75]
+ntR11796;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_slice_rddata_align/dqs_read_valid_r [1]
+ntR11797;rx_rgb_q[13]
+ntR11798;rx_rgb_q[13]
+ntR11799;core/modes/N641
+ntR11800;memory_ip/u_ddrphy_top/gatecal_start
+ntR11801;core/continuous_sources/data_crossing/fifo/rd_bin [4]
+ntR11802;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_wdata_path_adj/phy_wrdata_en_r [3]
+ntR11803;core/stream_path/processor/pw [0]
+ntR11804;core/stream_path/processor/pw [0]
+ntR11805;core/stream_path/processor/pw [0]
+ntR11806;core/stream_path/processor/pw [1]
+ntR11807;core/stream_path/processor/pw [2]
+ntR11808;core/stream_path/writer/tile_row_final
+ntR11809;core/continuous_sources/writer/input_packet [136]
+ntR11810;core/stream_path/processor/pw [4]
+ntR11811;core/stream_path/processor/pw [5]
+ntR11812;engine/pipe_rdata [92]
+ntR11813;core/stream_path/processor/N482
+ntR11814;core/stream_path/processor/N482
+ntR11815;core/display_reader/req_gen [10]
+ntR11816;engine/pipe_rdata [56]
+ntR11817;engine/pipe_rdata [56]
+ntR11818;core/stream_path/processor/pw [3]
+ntR11819;core/selftest/index [15]
+ntR11820;core/stream_path/writer/N389
+ntR11821;core/selftest/index [12]
+ntR11822;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/bitslip_dq
+ntR11823;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/bitslip_dq
+ntR11824;engine/pipe_rdata [186]
+ntR11825;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/N54
+ntR11826;engine/pipe_rdata [222]
+ntR11827;engine/pipe_rdata [222]
+ntR11828;arlen[0]
+ntR11829;core/stream_path/processor/pr [3]
+ntR11830;engine/pipe_rdata [67]
+ntR11831;engine/pipe_rdata [24]
+ntR11832;engine/pipe_rdata [211]
+ntR11833;memory_ip/u_ips_ddrc_top/mcdq_dcp_top/pipe_cmd_accepted_m
+ntR11834;engine/pipe_rdata [59]
+ntR11835;engine/pipe_rdata [59]
+ntR11836;engine/pipe_rdata [240]
+ntR11837;core/stream_path/cache/l_replace_way [6]
+ntR11838;core/stream_path/writer/N364
+ntR11839;core/continuous_sources/capture/_N194489_2
+ntR11840;core/stream_path/writer/N366
+ntR11841;memory_ip/u_ddrphy_top/phy_wrdata_en [0]
+ntR11842;engine/pipe_rdata [220]
+ntR11843;core/stream_path/processor/pr [0]
+ntR11844;core/stream_path/processor/runtime_geometry.algorithm/lens/g_map.r2_2 [31]
+ntR11845;core/selftest/_N29
+ntR11846;rsp_w
+ntR11847;engine/pipe_rdata [90]
+ntR11848;engine/pipe_rdata [90]
+ntR11849;core/stream_path/writer/good_addr
+ntR11850;core/stream_path/writer/N35
+ntR11851;core/stream_path/processor/_N183459_1
+ntR11852;core/display_reader/line_lane_q [1]
+ntR11853;core/display_reader/line_lane_q [1]
+ntR11854;core/stream_path/bridge/requests/head [0]
+ntR11855;core/selftest/index [4]
+ntR11856;core/selftest/index [4]
+ntR11857;core/selftest/index [5]
+ntR11858;engine/pipe_rdata [77]
+ntR11859;core/selftest/index [7]
+ntR11860;core/stream_path/writer/_N171590
+ntR11861;cmd_data[146]
+ntR11862;trace_view/_N170979
+ntR11863;trace_view/_N170979
+ntR11864;trace_view/_N170979
+ntR11865;memory_ip/u_ddrphy_top/ddrphy_calib_top/init_start
+ntR11866;engine/pipe_rdata [218]
+ntR11867;core/continuous_sources/writer/input_packet [36]
+ntR11868;cmd_data[26]
+ntR11869;awvalid
+ntR11870;engine/pipe_rdata [86]
+ntR11871;engine/pipe_rdata [121]
+ntR11872;host_control/rx_data [1]
+ntR11873;core/continuous_sources/writer/input_packet [213]
+ntR11874;core/stream_path/cache/fill_state_reg [4]
+ntR11875;recovered_vs
+ntR11876;host_control/index [2]
+ntR11877;host_control/index [2]
+ntR11878;memory_ip/u_ips_ddrc_top/mcdq_ui_axi/pre_addr [20]
+ntR11879;engine/pipe_rdata [248]
+ntR11880;core/continuous_sources/writer/input_packet [21]
+ntR11881;core/stream_path/bridge/requests/pop
+ntR11882;core/stream_path/cache/_N172745
+ntR11883;core/stream_path/cache/_N172745
+ntR11884;engine/pipe_rdata [225]
+ntR11885;engine/pipe_rdata [236]
+ntR11886;engine/pipe_rdata [236]
+ntR11887;host_control/rx_data [5]
+ntR11888;host_control/rx_data [5]
+ntR11889;engine/pipe_rdata [249]
+ntR11890;engine/pipe_rdata [249]
+ntR11891;host_control/index [0]
+ntR11892;engine/pipe_rdata [233]
+ntR11893;engine/pipe_rdata [246]
+ntR11894;engine/pipe_rdata [53]
+ntR11895;core/stream_path/writer/N385
+ntR11896;core/stream_path/cache/_N172747
+ntR11897;engine/pipe_rdata [237]
+ntR11898;core/stream_path/cache/n_left_offset [0]
+ntR11899;core/stream_path/cache/n_left_offset [0]
+ntR11900;core/stream_path/cache/n_left_offset [0]
+ntR11901;core/stream_path/cache/_N172751
+ntR11902;core/stream_path/cache/_N172752
+ntR11903;core/stream_path/cache/_N172752
+ntR11904;engine/pipe_rdata [107]
+ntR11905;core/stream_path/processor/runtime_geometry.algorithm/lens/_N1509
+ntR11906;engine/pipe_rdata [250]
+ntR11907;core/stream_path/processor/runtime_geometry.algorithm/N69 [37]
+ntR11908;core/stream_path/processor/runtime_geometry.algorithm/lens/N443 [28]
+ntR11909;core/continuous_sources/capture/vs_d_rnmt
+ntR11910;core/continuous_sources/capture/vs_d_rnmt
+ntR11911;core/continuous_sources/writer/input_packet [318]
+ntR11912;core/continuous_sources/writer/input_packet [318]
+ntR11913;core/continuous_sources/writer/input_packet [319]
+ntR11914;engine/pipe_rdata [229]
+ntR11915;engine/pipe_rdata [229]
+ntR11916;core/continuous_sources/writer/state_reg [0]
+ntR11917;engine/pipe_rdata [108]
+ntR11918;core/stream_path/processor/runtime_geometry.algorithm/sample_inside
+ntR11919;memory_ip/u_ddrphy_top/ddrphy_slice_top/ddrphy_slice_rddata_align/dqs_read_valid_r [0]
+ntR11920;core/stream_path/processor/_N176478
+ntR11921;core/stream_path/processor/_N176478
+ntR11922;core/stream_path/processor/_N176478
+ntR11923;host_control/index [1]
+ntR11924;memory_ip/u_ddrphy_top/mc_wl [0]
+ntR11925;core/stream_path/writer/buffered [1]
+ntR11926;core/stream_path/cache/fill_state_reg [1]
+ntR11927;core/descriptor_bank
+ntR11928;core/descriptor_bank
+ntR11929;core/descriptor_bank
+ntR11930;engine/pipe_rdata [114]
+ntR11931;engine/pipe_rdata [151]
+ntR11932;core/stream_path/processor/runtime_geometry.algorithm/ty0 [39]
+ntR11933;core/stream_path/processor/runtime_geometry.algorithm/ty0 [39]
+ntR11934;core/stream_path/processor/runtime_geometry.algorithm/ty0 [39]
+ntR11935;core/continuous_sources/capture/tail [0]
+ntR11936;core/continuous_sources/capture/tail [0]
+ntR11937;engine/pipe_rdata [162]
+ntR11938;arready
+ntR11939;core/stream_path/N57
+ntR11940;core/stream_path/N57
+ntR11941;core/stream_path/N57
+ntR11942;engine/pipe_rdata [97]
+ntR11943;engine/pipe_rdata [97]
+ntR11944;core/stream_path/cache/l_advance
+ntR11945;core/continuous_sources/capture/vs_rise
+ntR11946;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[1].ddrphy_data_slice/debug_data [68]
+ntR11947;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/debug_data [67]
+ntR11948;core/display_reader/line_lane_q [2]
+ntR11949;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/debug_data [68]
+ntR11950;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/debug_data [68]
+ntR11951;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/debug_data [68]
+ntR11952;core/stream_path/cache/fill_tag [4]
+ntR11953;core/stream_path/cache/fill_tag [4]
+ntR11954;engine/pipe_rdata [98]
+ntR11955;core/stream_path/processor/state_reg [0]
+ntR11956;core/stream_path/write_rgb [1]
+ntR11957;scan_y[7]
+ntR11958;scan_y[7]
+ntR11959;scan_y[7]
+ntR11960;scan_y[7]
+ntR11961;service_totals_observer/N6
+ntR11962;core/stream_path/write_rgb [15]
+ntR11963;core/stream_path/write_rgb [8]
+ntR11964;core/stream_path/write_rgb [10]
+ntR11965;core/stream_path/write_rgb [10]
+ntR11966;core/stream_path/write_rgb [19]
+ntR11967;core/stream_path/write_rgb [2]
+ntR11968;engine/pipe_rdata [178]
+ntR11969;core/stream_path/write_rgb [16]
+ntR11970;core/stream_path/write_rgb [12]
+ntR11971;core/stream_path/write_rgb [17]
+ntR11972;core/stream_path/write_rgb [18]
+ntR11973;core/stream_path/cache/n_right_offset [1]
+ntR11974;core/stream_path/write_rgb [3]
+ntR11975;core/stream_path/write_rgb [4]
+ntR11976;engine/pipe_rdata [170]
+ntR11977;core/stream_path/cache/fill_tag [3]
+ntR11978;core/stream_path/cache/fill_tag [3]
+ntR11979;core/stream_path/bridge/responses/head [0]
+ntR11980;core/stream_path/bridge/responses/head [1]
+ntR11981;engine/pipe_rdata [171]
+ntR11982;engine/pipe_rdata [171]
+ntR11983;core/stream_path/cache/l_x1 [10]
+ntR11984;core/stream_path/cache/l_x1 [10]
+ntR11985;engine/pipe_rdata [176]
+ntR11986;engine/pipe_rdata [176]
+ntR11987;core/stream_path/cache/fill_tag [1]
+ntR11988;core/stream_path/cache/l_x1 [8]
+ntR11989;core/stream_path/cache/l_x1 [8]
+ntR11990;core/stream_path/cache/l_x1 [8]
+ntR11991;core/stream_path/cache/l_x1 [11]
+ntR11992;core/stream_path/cache/l_x1 [11]
+ntR11993;core/stream_path/write_rgb [14]
+ntR11994;core/stream_path/cache/fill_tag [0]
+ntR11995;core/stream_path/cache/fill_tag [0]
+ntR11996;core/stream_path/write_rgb [6]
+ntR11997;core/stream_path/write_rgb [6]
+ntR11998;core/continuous_sources/capture/active_rnmt
+ntR11999;engine/pipe_rdata [190]
+ntR12000;core/display_reader/_N69690
+ntR12001;core/display_reader/_N69690
+ntR12002;core/display_reader/_N69690
+ntR12003;core/display_reader/_N69690
+ntR12004;core/display_reader/_N69690
+ntR12005;core/display_reader/_N69690
+ntR12006;core/display_reader/_N69699
+ntR12007;core/display_reader/_N69699
+ntR12008;core/display_reader/_N69699
+ntR12009;core/display_reader/_N69699
+ntR12010;core/display_reader/_N69699
+ntR12011;core/stream_path/cache/probe_y1 [10]
+ntR12012;core/stream_path/cache/probe_y1 [9]
+ntR12013;core/stream_path/cache/probe_y1 [9]
+ntR12014;core/stream_path/cache/l_x [10]
+ntR12015;core/stream_path/cache/l_x [10]
+ntR12016;core/stream_path/cache/l_x1 [9]
+ntR12017;core/stream_path/cache/l_x1 [9]
+ntR12018;core/stream_path/cache/l_x1 [9]
+ntR12019;core/stream_path/cache/l_x1 [9]
+ntR12020;core/stream_path/cache/l_x1 [9]
+ntR12021;core/stream_path/cache/l_x1 [9]
+ntR12022;core/stream_path/cache/l_x1 [9]
+ntR12023;core/stream_path/cache/l_x [9]
+ntR12024;core/stream_path/cache/l_x [9]
+ntR12025;core/stream_path/cache/probe_x [8]
+ntR12026;core/stream_path/cache/l_x1 [7]
+ntR12027;core/stream_path/cache/l_x1 [7]
+ntR12028;core/stream_path/bridge/responses/tail [1]
+ntR12029;core/stream_path/cache/l_x [7]
+ntR12030;core/stream_path/cache/l_x [7]
+ntR12031;core/stream_path/cache/l_y1 [10]
+ntR12032;core/stream_path/cache/l_y1 [10]
+ntR12033;core/stream_path/cache/l_y1 [10]
+ntR12034;core/stream_path/cache/l_y1 [10]
+ntR12035;core/stream_path/cache/l_y1 [6]
+ntR12036;core/stream_path/cache/l_y1 [7]
+ntR12037;core/stream_path/cache/l_y1 [11]
+ntR12038;core/stream_path/cache/l_y1 [4]
+ntR12039;core/stream_path/cache/l_y1 [2]
+ntR12040;core/stream_path/cache/l_y1 [2]
+ntR12041;core/stream_path/cache/l_y1 [2]
+ntR12042;core/stream_path/cache/probe_y [10]
+ntR12043;core/stream_path/cache/l_y1 [3]
+ntR12044;engine/pipe_rdata [175]
+ntR12045;core/stream_path/cache/fill_way [4]
+ntR12046;core/stream_path/cache/fill_way [4]
+ntR12047;core/stream_path/cache/fill_way [4]
+ntR12048;core/stream_path/cache/fill_way [3]
+ntR12049;core/stream_path/cache/fill_way [3]
+ntR12050;core/stream_path/cache/fill_way [3]
+ntR12051;core/stream_path/cache/fill_tag [14]
+ntR12052;core/stream_path/cache/fill_way [5]
+ntR12053;core/stream_path/cache/probe_y1 [11]
+ntR12054;core/stream_path/cache/N21221
+ntR12055;core/stream_path/cache/N21221
+ntR12056;core/stream_path/cache/N21221
+ntR12057;core/stream_path/cache/N21221
+ntR12058;core/stream_path/cache/N21221
+ntR12059;core/stream_path/cache/N21221
+ntR12060;core/stream_path/cache/N21221
+ntR12061;core/stream_path/cache/N21221
+ntR12062;core/stream_path/cache/N21221
+ntR12063;core/stream_path/cache/N21221
+ntR12064;core/stream_path/cache/N21221
+ntR12065;core/stream_path/cache/probe_x [7]
+ntR12066;core/stream_path/cache/probe_x [7]
+ntR12067;core/stream_path/cache/fill_tag [9]
+ntR12068;core/stream_path/cache/fill_tag [9]
+ntR12069;core/stream_path/cache/fill_tag [9]
+ntR12070;scan_y[8]
+ntR12071;scan_y[8]
+ntR12072;scan_y[8]
+ntR12073;core/stream_path/cache/probe_y [1]
+ntR12074;memory_ip/u_ddrphy_top/ddrphy_dqs_rst
+ntR12075;memory_ip/u_ddrphy_top/ddrphy_dqs_rst
+ntR12076;memory_ip/u_ddrphy_top/ddrphy_dqs_rst
+ntR12077;core/stream_path/cache/fill_tag [7]
+ntR12078;core/stream_path/cache/probe_y [11]
+ntR12079;core/stream_path/cache/l_y [3]
+ntR12080;core/stream_path/cache/l_y [1]
+ntR12081;core/stream_path/cache/fill_tag [15]
+ntR12082;core/stream_path/cache/N20333
+ntR12083;core/stream_path/cache/l_y [11]
+ntR12084;core/stream_path/cache/l_y [9]
+ntR12085;core/stream_path/cache/l_y [7]
+ntR12086;core/stream_path/cache/_N172539
+ntR12087;core/stream_path/cache/_N45172
+ntR12088;core/stream_path/cache/_N45172
+ntR12089;core/stream_path/cache/_N45176
+ntR12090;core/stream_path/cache/_N45176
+ntR12091;core/stream_path/cache/_N45176
+ntR12092;core/stream_path/cache/_N45176
+ntR12093;angle_mailbox/N15
+ntR12094;angle_mailbox/N15
+ntR12095;core/stream_path/processor/N1064
+ntR12096;core/stream_path/processor/dr [7]
+ntR12097;core/stream_path/processor/dr [7]
+ntR12098;core/stream_path/processor/dr [7]
+ntR12099;core/stream_path/processor/dr [7]
+ntR12100;core/stream_path/processor/dr [6]
+ntR12101;core/stream_path/processor/dr [6]
+ntR12102;core/stream_path/processor/dr [6]
+ntR12103;core/stream_path/cache/read_right
+ntR12104;core/continuous_sources/data_crossing/N85
+ntR12105;core/continuous_sources/data_crossing/N85
+ntR12106;core/p_done
+ntR12107;core/continuous_sources/data_crossing/head [0]
+ntR12108;core/continuous_sources/capture/N854
+ntR12109;angle_mailbox/s_release [1]
+ntR12110;angle_mailbox/s_release [1]
+ntR12111;engine/N410975
+ntR12112;core/stream_path/cache/m_boundary
+ntR12113;core/stream_path/cache/m_boundary
+ntR12114;engine/N397407
+ntR12115;core/stream_path/cache/bank_a
+ntR12116;core/stream_path/cache/bank_a
+ntR12117;core/stream_path/cache/bank_a
+ntR12118;core/stream_path/cache/bank_a
+ntR12119;engine/N153233
+ntR12120;_N17
+ntR12121;_N17
+ntR12122;_N17
+ntR12123;_N17
+ntR12124;engine/_N57785
+ntR12125;engine/_N57785
+ntR12126;engine/_N57785
+ntR12127;engine/_N57785
+ntR12128;engine/_N57785
+ntR12129;engine/_N57785
+ntR12130;engine/_N57785
+ntR12131;engine/_N57785
+ntR12132;engine/_N57785
+ntR12133;engine/_N57785
+ntR12134;engine/_N57785
+ntR12135;engine/_N57785
+ntR12136;engine/_N57776
+ntR12137;engine/_N57776
+ntR12138;engine/_N57776
+ntR12139;engine/_N57776
+ntR12140;engine/_N57776
+ntR12141;engine/_N57776
+ntR12142;engine/_N57776
+ntR12143;engine/_N57776
+ntR12144;engine/_N57776
+ntR12145;_N57771
+ntR12146;engine/N3075
+ntR12147;engine/N3075
+ntR12148;core/continuous_sources/capture/head [2]
+ntR12149;core/continuous_sources/capture/head [1]
+ntR12150;core/continuous_sources/capture/head [1]
+ntR12151;core/stream_path/cache/invalidate_pending
+ntR12152;core/stream_path/cache/invalidate_pending
+ntR12153;core/stream_path/cache/invalidate_pending
+ntR12154;core/stream_path/cache/invalidate_pending
+ntR12155;core/stream_path/cache/invalidate_pending
+ntR12156;core/stream_path/cache/invalidate_pending
+ntR12157;core/stream_path/cache/invalidate_pending
+ntR12158;core/stream_path/cache/invalidate_pending
+ntR12159;core/stream_path/cache/invalidate_pending
+ntR12160;core/stream_path/cache/invalidate_pending
+ntR12161;core/stream_path/cache/invalidate_pending
+ntR12162;core/stream_path/cache/invalidate_pending
+ntR12163;core/stream_path/cache/invalidate_pending
+ntR12164;host_reset_n
+ntR12165;host_reset_n
+ntR12166;scan_y[6]
+ntR12167;_N19
+ntR12168;_N19
+ntR12169;_N19
+ntR12170;_N19
+ntR12171;core/continuous_sources/writer/N450
+ntR12172;core/continuous_sources/capture/pack_count [0]
+ntR12173;core/continuous_sources/capture/pack_count [0]
+ntR12174;core/continuous_sources/capture/pack_count [0]
+ntR12175;core/continuous_sources/capture/pack_count [0]
+ntR12176;core/continuous_sources/capture/pack_count [0]
+ntR12177;core/continuous_sources/capture/pack_count [0]
+ntR12178;memory_ip/u_ddrphy_top/ddrphy_calib_top/wrcal_start
+ntR12179;memory_ip/u_ddrphy_top/ddrphy_calib_top/wrcal_start
+ntR12180;memory_ip/u_ddrphy_top/ddrphy_calib_top/wrcal_start
+ntR12181;memory_ip/u_ddrphy_top/ddrphy_calib_top/wrcal_start
+ntR12182;core/continuous_sources/capture/pack_count [1]
+ntR12183;core/continuous_sources/capture/pack_count [1]
+ntR12184;core/continuous_sources/capture/pack_count [1]
+ntR12185;core/continuous_sources/capture/pack_count [1]
+ntR12186;core/continuous_sources/capture/pack_count [1]
+ntR12187;core/continuous_sources/capture/pack_count [1]
+ntR12188;core/continuous_sources/capture/pack_count [2]
+ntR12189;core/continuous_sources/capture/pack_count [2]
+ntR12190;core/continuous_sources/capture/pack_count [2]
+ntR12191;core/continuous_sources/capture/pack_count [2]
+ntR12192;scan_y[5]
+ntR12193;scan_y[5]
+ntR12194;engine/state_reg [6]
+ntR12195;engine/state_reg [6]
+ntR12196;engine/state_reg [6]
+ntR12197;engine/state_reg [6]
+ntR12198;engine/state_reg [6]
+ntR12199;diagnostics_crossing/_N18943
+ntR12200;core/stream_path/cache/n_space
+ntR12201;core/stream_path/processor/dw [5]
+ntR12202;core/stream_path/processor/dw [5]
+ntR12203;core/stream_path/processor/dw [5]
+ntR12204;core/stream_path/processor/dw [5]
+ntR12205;core/stream_path/processor/dw [5]
+ntR12206;core/stream_path/processor/dw [5]
+ntR12207;core/stream_path/processor/dw [5]
+ntR12208;core/stream_path/processor/dw [5]
+ntR12209;core/stream_path/processor/dw [5]
+ntR12210;core/stream_path/processor/dw [4]
+ntR12211;core/stream_path/processor/dw [4]
+ntR12212;core/stream_path/processor/dw [4]
+ntR12213;core/stream_path/processor/dw [4]
+ntR12214;core/stream_path/processor/dw [4]
+ntR12215;core/stream_path/processor/dw [4]
+ntR12216;core/stream_path/processor/dw [4]
+ntR12217;core/stream_path/processor/dw [4]
+ntR12218;core/stream_path/processor/dw [4]
+ntR12219;_N18
+ntR12220;_N18
+ntR12221;_N18
+ntR12222;awaddr[3]
+ntR12223;awaddr[3]
+ntR12224;awaddr[3]
+ntR12225;awaddr[3]
+ntR12226;awaddr[3]
+ntR12227;awaddr[3]
+ntR12228;awaddr[3]
+ntR12229;core/stream_path/processor/dr [5]
+ntR12230;core/stream_path/processor/dr [5]
+ntR12231;core/stream_path/processor/dr [5]
+ntR12232;core/stream_path/processor/dr [5]
+ntR12233;core/stream_path/processor/dr [5]
+ntR12234;core/stream_path/processor/dr [5]
+ntR12235;core/stream_path/processor/dr [5]
+ntR12236;core/stream_path/processor/dr [5]
+ntR12237;core/stream_path/processor/dr [5]
+ntR12238;core/stream_path/processor/dr [5]
+ntR12239;core/stream_path/processor/dr [4]
+ntR12240;core/stream_path/processor/dr [4]
+ntR12241;core/stream_path/processor/dr [4]
+ntR12242;core/stream_path/processor/dr [1]
+ntR12243;core/stream_path/processor/dr [1]
+ntR12244;core/stream_path/processor/dr [1]
+ntR12245;core/stream_path/processor/dr [1]
+ntR12246;core/stream_path/processor/dr [1]
+ntR12247;core/stream_path/processor/dr [1]
+ntR12248;core/stream_path/processor/dr [1]
+ntR12249;core/stream_path/processor/dr [1]
+ntR12250;core/stream_path/processor/dr [1]
+ntR12251;core/stream_path/processor/dr [0]
+ntR12252;core/stream_path/processor/dr [0]
+ntR12253;core/stream_path/processor/dr [0]
+ntR12254;core/stream_path/processor/dr [0]
+ntR12255;core/stream_path/processor/dr [0]
+ntR12256;core/stream_path/processor/dr [0]
+ntR12257;core/stream_path/processor/dr [0]
+ntR12258;core/stream_path/processor/dr [0]
+ntR12259;core/stream_path/processor/dr [0]
+ntR12260;core/stream_path/processor/dr [0]
+ntR12261;core/stream_path/processor/dr [0]
+ntR12262;core/stream_path/processor/dr [0]
+ntR12263;core/stream_path/processor/dr [0]
+ntR12264;core/stream_path/processor/N1304
+ntR12265;core/stream_path/processor/N1304
+ntR12266;core/stream_path/processor/dw [2]
+ntR12267;core/stream_path/processor/dw [2]
+ntR12268;core/stream_path/processor/dw [2]
+ntR12269;core/stream_path/processor/dw [1]
+ntR12270;core/stream_path/processor/dw [1]
+ntR12271;core/stream_path/processor/dw [1]
+ntR12272;core/stream_path/processor/dw [1]
+ntR12273;core/stream_path/processor/dw [1]
+ntR12274;core/stream_path/processor/dw [1]
+ntR12275;core/stream_path/processor/dw [1]
+ntR12276;core/stream_path/processor/dw [1]
+ntR12277;core/stream_path/processor/dw [1]
+ntR12278;core/stream_path/processor/dw [1]
+ntR12279;core/stream_path/processor/dw [3]
+ntR12280;core/stream_path/processor/dw [3]
+ntR12281;core/stream_path/processor/dw [3]
+ntR12282;core/stream_path/processor/dw [3]
+ntR12283;core/stream_path/processor/dw [3]
+ntR12284;core/stream_path/processor/dw [3]
+ntR12285;core/stream_path/processor/dw [3]
+ntR12286;core/stream_path/processor/dw [3]
+ntR12287;core/stream_path/processor/dw [3]
+ntR12288;core/stream_path/processor/dw [3]
+ntR12289;core/stream_path/processor/dw [3]
+ntR12290;core/stream_path/processor/dw [3]
+ntR12291;core/stream_path/processor/dw [3]
+ntR12292;core/stream_path/processor/dw [3]
+ntR12293;core/stream_path/processor/dw [0]
+ntR12294;core/stream_path/processor/dw [0]
+ntR12295;core/stream_path/processor/dw [0]
+ntR12296;core/stream_path/processor/dw [0]
+ntR12297;core/stream_path/processor/dw [0]
+ntR12298;core/stream_path/processor/dw [0]
+ntR12299;core/stream_path/processor/dw [0]
+ntR12300;core/stream_path/processor/dw [0]
+ntR12301;core/stream_path/processor/dw [0]
+ntR12302;core/stream_path/processor/dw [0]
+ntR12303;core/stream_path/processor/dw [0]
+ntR12304;core/stream_path/processor/dr [3]
+ntR12305;core/stream_path/processor/dr [3]
+ntR12306;core/stream_path/processor/dr [3]
+ntR12307;core/stream_path/processor/dr [3]
+ntR12308;core/stream_path/processor/dr [3]
+ntR12309;core/stream_path/processor/dr [3]
+ntR12310;core/stream_path/processor/dr [3]
+ntR12311;core/stream_path/processor/dr [3]
+ntR12312;core/stream_path/processor/dr [3]
+ntR12313;core/stream_path/processor/dr [3]
+ntR12314;core/stream_path/processor/dr [2]
+ntR12315;core/stream_path/processor/dr [2]
+ntR12316;core/stream_path/processor/dr [2]
+ntR12317;core/stream_path/processor/dr [2]
+ntR12318;core/stream_path/processor/dr [2]
+ntR12319;core/stream_path/processor/dr [2]
+ntR12320;core/stream_path/processor/dr [2]
+ntR12321;core/stream_path/processor/dr [2]
+ntR12322;core/stream_path/processor/dr [2]
+ntR12323;core/stream_path/processor/dr [2]
+ntR12324;core/stream_path/processor/dr [2]
+ntR12325;_N16
+ntR12326;_N16
+ntR12327;_N16
+ntR12328;_N16
+ntR12329;_N16
+ntR12330;_N16
+ntR12331;_N16
+ntR12332;_N16
+ntR12333;_N16
+ntR12334;_N16
+ntR12335;_N16
+ntR12336;_N16
+ntR12337;_N16
+ntR12338;_N16
+ntR12339;_N16
+ntR12340;_N16
+ntR12341;_N16
+ntR12342;_N16
+ntR12343;_N16
+ntR12344;_N16
+ntR12345;_N16
+ntR12346;_N16
+ntR12347;_N16
+ntR12348;_N16
+ntR12349;_N16
+ntR12350;engine/write_index [3]
+ntR12351;engine/write_index [3]
+ntR12352;trace_view/crossing/s_rst_n
+ntR12353;trace_view/crossing/s_rst_n
+ntR12354;memory_ip/u_ddrphy_top/ddrphy_rst_n
+ntR12355;memory_ip/u_ddrphy_top/ddrphy_rst_n
+ntR12356;memory_ip/u_ddrphy_top/ddrphy_rst_n
+ntR12357;ui_rst
+ntR12358;trace_view/crossing/N6
+ntR12359;_N15
+ntR12360;_N15
+ntR12361;_N15
+ntR12362;_N15
+ntR12363;_N15
+ntR12364;_N15
+ntR12365;_N15
+ntR12366;_N15
+ntR12367;_N15
+ntR12368;_N15
+ntR12369;_N15
+ntR12370;_N15
+ntR12371;_N15
+ntR12372;_N15
+ntR12373;_N15
+ntR12374;_N15
+ntR12375;_N15
+ntR12376;_N15
+ntR12377;_N15
+ntR12378;core/display_reader/_N59360
+ntR12379;core/display_reader/_N59360
+ntR12380;core/display_reader/_N59360
+ntR12381;core/display_reader/_N59360
+ntR12382;core/display_reader/_N59360
+ntR12383;core/display_reader/_N59360
+ntR12384;core/display_reader/_N59360
+ntR12385;core/display_reader/_N59360
+ntR12386;trace_view/crossing/d_rst_n
+ntR12387;trace_view/crossing/d_rst_n
+ntR12388;awaddr[4]
+ntR12389;awaddr[4]
+ntR12390;awaddr[4]
+ntR12391;awaddr[4]
+ntR12392;awaddr[4]
+ntR12393;awaddr[4]
+ntR12394;core/stream_path/writer/N109
+ntR12395;core/stream_path/writer/N109
+ntR12396;core/stream_path/writer/N109
+ntR12397;core/stream_path/writer/N109
+ntR12398;core/stream_path/writer/N109
+ntR12399;core/stream_path/writer/N109
+ntR12400;core/stream_path/writer/N109
+ntR12401;core/stream_path/writer/N109
+ntR12402;core/stream_path/writer/N109
+ntR12403;core/stream_path/writer/N109
+ntR12404;core/stream_path/writer/N109
+ntR12405;core/stream_path/writer/N109
+ntR12406;core/stream_path/writer/N109
+ntR12407;core/stream_path/writer/N109
+ntR12408;core/stream_path/writer/N109
+ntR12409;core/stream_path/writer/N109
+ntR12410;core/stream_path/writer/N109
+ntR12411;core/stream_path/writer/N109
+ntR12412;core/stream_path/writer/N109
+ntR12413;core/stream_path/writer/N109
+ntR12414;core/stream_path/writer/N109
+ntR12415;core/stream_path/writer/N109
+ntR12416;core/stream_path/writer/N109
+ntR12417;trace_view/N211
+ntR12418;trace_view/N211
+ntR12419;trace_view/N211
+ntR12420;trace_view/N211
+ntR12421;trace_view/N211
+ntR12422;engine/write_index [2]
+ntR12423;engine/write_index [2]
+ntR12424;engine/write_index [2]
+ntR12425;core/stream_path/writer/N755
+ntR12426;core/stream_path/writer/N755
+ntR12427;core/stream_path/writer/N755
+ntR12428;core/stream_path/writer/N755
+ntR12429;core/stream_path/writer/N755
+ntR12430;core/stream_path/writer/N755
+ntR12431;core/stream_path/writer/N755
+ntR12432;core/stream_path/writer/N755
+ntR12433;core/stream_path/writer/N755
+ntR12434;core/stream_path/cache/fill_state_reg [3]
+ntR12435;core/stream_path/cache/fill_state_reg [3]
+ntR12436;core/stream_path/cache/fill_state_reg [3]
+ntR12437;core/stream_path/cache/fill_state_reg [3]
+ntR12438;core/stream_path/cache/fill_state_reg [3]
+ntR12439;core/stream_path/cache/fill_state_reg [3]
+ntR12440;core/stream_path/cache/fill_state_reg [3]
+ntR12441;core/stream_path/cache/fill_state_reg [3]
+ntR12442;core/stream_path/cache/fill_state_reg [3]
+ntR12443;core/stream_path/processor/pixel_pop
+ntR12444;core/stream_path/processor/pixel_pop
+ntR12445;core/stream_path/processor/pixel_pop
+ntR12446;core/stream_path/processor/pixel_pop
+ntR12447;core/stream_path/processor/pixel_pop
+ntR12448;core/stream_path/processor/pixel_pop
+ntR12449;core/stream_path/processor/pixel_pop
+ntR12450;core/stream_path/processor/pixel_pop
+ntR12451;core/stream_path/processor/pixel_pop
+ntR12452;core/stream_path/processor/pixel_pop
+ntR12453;core/stream_path/processor/pixel_pop
+ntR12454;core/stream_path/processor/pixel_pop
+ntR12455;core/stream_path/processor/pixel_pop
+ntR12456;core/stream_path/processor/pixel_pop
+ntR12457;core/stream_path/processor/pixel_pop
+ntR12458;core/stream_path/processor/pixel_pop
+ntR12459;core/stream_path/processor/pixel_pop
+ntR12460;core/stream_path/processor/pixel_pop
+ntR12461;core/stream_path/processor/pixel_pop
+ntR12462;core/stream_path/cache/N20337
+ntR12463;N142
+ntR12464;N142
+ntR12465;N142
+ntR12466;N142
+ntR12467;trace_view/crossing/_N7891
+ntR12468;trace_view/crossing/_N7891
+ntR12469;trace_view/crossing/_N7891
+ntR12470;trace_view/crossing/_N7891
+ntR12471;trace_view/crossing/_N7891
+ntR12472;core/display_reader/N998
+ntR12473;core/display_reader/N998
+ntR12474;core/display_reader/N998
+ntR12475;core/display_reader/_N59369
+ntR12476;core/display_reader/_N59369
+ntR12477;core/display_reader/_N59369
+ntR12478;core/display_reader/_N59369
+ntR12479;core/display_reader/_N59369
+ntR12480;core/display_reader/_N59369
+ntR12481;core/display_reader/_N59369
+ntR12482;core/display_reader/_N59369
+ntR12483;core/display_reader/_N59369
+ntR12484;core/display_reader/_N59369
+ntR12485;core/display_reader/_N59369
+ntR12486;core/display_reader/_N59369
+ntR12487;core/display_reader/_N59369
+ntR12488;core/display_reader/_N59369
+ntR12489;core/display_reader/_N59369
+ntR12490;core/display_reader/_N59369
+ntR12491;core/display_reader/_N59369
+ntR12492;core/display_reader/_N59369
+ntR12493;core/display_reader/_N59369
+ntR12494;core/display_reader/_N59369
+ntR12495;core/display_reader/_N59369
+ntR12496;core/display_reader/_N59369
+ntR12497;core/display_reader/_N59369
+ntR12498;core/display_reader/_N59369
+ntR12499;core/display_reader/_N59369
+ntR12500;core/display_reader/_N59369
+ntR12501;core/display_reader/_N59369
+ntR12502;core/display_reader/_N59369
+ntR12503;core/display_reader/_N59369
+ntR12504;core/display_reader/_N59369
+ntR12505;core/display_reader/_N59369
+ntR12506;core/display_reader/_N59369
+ntR12507;core/display_reader/_N59369
+ntR12508;core/display_reader/_N59369
+ntR12509;core/display_reader/_N59369
+ntR12510;core/display_reader/_N59369
+ntR12511;core/display_reader/_N59369
+ntR12512;core/display_reader/_N59369
+ntR12513;core/display_reader/_N59369
+ntR12514;core/display_reader/_N59369
+ntR12515;core/display_reader/_N59369
+ntR12516;core/display_reader/_N59369
+ntR12517;core/display_reader/_N59369
+ntR12518;core/display_reader/_N59369
+ntR12519;core/display_reader/_N59369
+ntR12520;core/display_reader/_N59369
+ntR12521;core/display_reader/_N59369
+ntR12522;core/display_reader/_N59369
+ntR12523;core/display_reader/_N59369
+ntR12524;core/display_reader/_N59369
+ntR12525;core/display_reader/_N59369
+ntR12526;core/display_reader/_N59369
+ntR12527;core/display_reader/_N59369
+ntR12528;core/display_reader/_N59369
+ntR12529;core/display_reader/_N59369
+ntR12530;core/display_reader/_N59369
+ntR12531;core/display_reader/_N59369
+ntR12532;core/display_reader/_N59369
+ntR12533;core/display_reader/_N59369
+ntR12534;core/display_reader/_N59369
+ntR12535;core/display_reader/_N59369
+ntR12536;core/display_reader/_N59369
+ntR12537;core/display_reader/_N59369
+ntR12538;core/display_reader/ui_reset_pipe [1]
+ntR12539;core/display_reader/ui_reset_pipe [1]
+ntR12540;core/display_reader/ui_reset_pipe [1]
+ntR12541;core/display_reader/ui_reset_pipe [1]
+ntR12542;core/display_reader/ui_reset_pipe [1]
+ntR12543;core/display_reader/ui_reset_pipe [1]
+ntR12544;core/display_reader/ui_reset_pipe [1]
+ntR12545;core/display_reader/ui_reset_pipe [1]
+ntR12546;core/display_reader/ui_reset_pipe [1]
+ntR12547;awaddr[6]
+ntR12548;awaddr[6]
+ntR12549;awaddr[6]
+ntR12550;awaddr[6]
+ntR12551;awaddr[6]
+ntR12552;awaddr[6]
+ntR12553;awaddr[6]
+ntR12554;awaddr[6]
+ntR12555;awaddr[6]
+ntR12556;awaddr[6]
+ntR12557;awaddr[6]
+ntR12558;awaddr[6]
+ntR12559;awaddr[6]
+ntR12560;awaddr[6]
+ntR12561;awaddr[6]
+ntR12562;awaddr[6]
+ntR12563;awaddr[6]
+ntR12564;awaddr[6]
+ntR12565;awaddr[5]
+ntR12566;awaddr[5]
+ntR12567;awaddr[5]
+ntR12568;awaddr[5]
+ntR12569;awaddr[5]
+ntR12570;awaddr[5]
+ntR12571;awaddr[5]
+ntR12572;awaddr[5]
+ntR12573;awaddr[5]
+ntR12574;awaddr[5]
+ntR12575;awaddr[5]
+ntR12576;awaddr[5]
+ntR12577;awaddr[5]
+ntR12578;awaddr[5]
+ntR12579;awaddr[5]
+ntR12580;awaddr[5]
+ntR12581;awaddr[5]
+ntR12582;awaddr[5]
+ntR12583;awaddr[5]
+ntR12584;core/continuous_sources/data_crossing/fifo/rd_release [1]
+ntR12585;core/continuous_sources/data_crossing/fifo/rd_release [1]
+ntR12586;core/stream_path/cache/fill_state_reg [2]
+ntR12587;core/stream_path/cache/fill_state_reg [2]
+ntR12588;core/stream_path/cache/fill_state_reg [2]
+ntR12589;core/stream_path/cache/fill_state_reg [2]
+ntR12590;core/stream_path/cache/fill_state_reg [2]
+ntR12591;core/N126
+ntR12592;core/N126
+ntR12593;core/N126
+ntR12594;core/N126
+ntR12595;core/N126
+ntR12596;core/N126
+ntR12597;core/N126
+ntR12598;engine/result_cache[15] [111]
+ntR12599;engine/result_cache[15] [111]
+ntR12600;full_source_line[1377]
+ntR12601;full_source_line[1377]
+ntR12602;full_source_line[1621]
+ntR12603;full_source_line[1621]
+ntR12604;trace_view/crossing/held [370]
+ntR12605;trace_view/crossing/held [370]
+ntR12606;full_source_line[849]
+ntR12607;full_source_line[849]
+ntR12608;trace_view/snapshot [1304]
+ntR12609;trace_view/snapshot [1304]
+ntR12610;trace_view/snapshot [1304]
+ntR12611;core/stream_path/cache/incoming_data [2861]
+ntR12612;core/stream_path/cache/incoming_data [2861]
+ntR12613;core/stream_path/cache/incoming_data [2861]
+ntR12614;core/stream_path/cache/incoming_data [2669]
+ntR12615;core/stream_path/cache/incoming_data [2669]
+ntR12616;core/stream_path/cache/incoming_data [2669]
+ntR12617;full_source_line[747]
+ntR12618;full_source_line[747]
+ntR12619;core/stream_path/cache/incoming_data [367]
+ntR12620;core/stream_path/cache/incoming_data [367]
+ntR12621;core/stream_path/cache/incoming_data [367]
+ntR12622;core/stream_path/cache/incoming_data [943]
+ntR12623;core/stream_path/cache/incoming_data [943]
+ntR12624;core/stream_path/cache/incoming_data [943]
+ntR12625;core/stream_path/cache/incoming_data [1005]
+ntR12626;core/stream_path/cache/incoming_data [1005]
+ntR12627;core/stream_path/cache/incoming_data [1005]
+ntR12628;core/stream_path/cache/incoming_data [1733]
+ntR12629;core/stream_path/cache/incoming_data [1733]
+ntR12630;core/stream_path/cache/incoming_data [1733]
+ntR12631;core/stream_path/cache/incoming_data [709]
+ntR12632;core/stream_path/cache/incoming_data [709]
+ntR12633;core/stream_path/cache/incoming_data [709]
+ntR12634;core/stream_path/cache/incoming_data [1285]
+ntR12635;core/stream_path/cache/incoming_data [1285]
+ntR12636;core/stream_path/cache/incoming_data [2061]
+ntR12637;core/stream_path/cache/incoming_data [2061]
+ntR12638;core/stream_path/cache/incoming_data [2993]
+ntR12639;core/stream_path/cache/incoming_data [2993]
+ntR12640;ref_clk
+ntR12641;ref_clk
+ntR12642;proc_first_service[84]
+ntR12643;trace_view/crossing/held [719]
+ntR12644;debug_frame_id[7]
+ntR12645;core/stream_path/cache/incoming_data [2198]
+ntR12646;core/stream_path/cache/odd_a [181]
+ntR12647;core/stream_path/cache/even_a [138]
+ntR12648;core/stream_path/cache/incoming_data [1428]
+ntR12649;nt_hd_tx_pclk
+ntR12650;full_source_line[1546]
+ntR12651;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_rdata [54]
+ntR12652;memory_ip/u_ddrphy_top/ddrphy_slice_top/i_dqs_group[0].ddrphy_data_slice/ddrphy_rdata [42]
+ntR12653;full_source_line[8]
+ntR12654;memory_ip/u_ddrphy_top/ddrphy_slice_top/dqs_read_data [224]
+ntR12655;core/stream_path/cache/incoming_data [750]
+ntR12656;core/stream_path/cache/incoming_data [2445]
+ntR12657;core/stream_path/cache/incoming_data [3019]
+ntR12658;core/display_reader/block_data [34]
+ntR12659;core/display_reader/_N66333
+ntR12660;core/stream_path/cache/incoming_data [1008]
+ntR12661;core/stream_path/cache/incoming_data [2117]
+ntR12662;full_source_line[3936]
+ntR12663;full_source_line[1522]
+ntR12664;full_source_line[4050]
+ntR12665;core/stream_path/cache/incoming_data [766]
+ntR12666;core/stream_path/cache/incoming_data [1709]
+ntR12667;core/continuous_sources/data_crossing/rd_data [255]
+ntR12668;full_source_line[1290]
+ntR12669;core/display_reader/block_data [135]
+ntR12670;memory_ip/u_ddrphy_top/rst_clk
+ntR12671;memory_ip/u_ddrphy_top/rst_clk
+ntR12672;memory_ip/u_ddrphy_top/rst_clk
+ntR12673;memory_ip/u_ddrphy_top/rst_clk
+ntR12674;ntclkbufg_4
+ntR12675;ntclkbufg_4
+ntR12676;ntclkbufg_4
+ntR12677;ntclkbufg_3
+ntR12678;ntclkbufg_3
+ntR12679;ntclkbufg_1
+ntR12680;ntclkbufg_1
+ntR12681;ntclkbufg_1
+ntR12682;ntclkbufg_1
+ntR12683;ntclkbufg_1
+ntR12684;ntclkbufg_1
+ntR12685;ntclkbufg_2
+ntR12686;ntclkbufg_2
+ntR12687;ntclkbufg_2
+ntR12688;ntclkbufg_0
+ntR12689;ntclkbufg_0
+ntR12690;ntclkbufg_0
+ntR12691;ntclkbufg_0
+ntR12692;ntclkbufg_0
+ntR12693;ntclkbufg_0
+ntR12694;ntclkbufg_0
+ntR12695;ntclkbufg_0
+ntR12696;ui_clk
+ntR12697;ui_clk
+ntR12698;ui_clk
+ntR12699;ui_clk
+ntR12700;ui_clk
+ntR12701;ui_clk
+ntR12702;ui_clk
+ntR12703;ui_clk

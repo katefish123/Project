@@ -1,0 +1,3 @@
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/all_group_ca_dly}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/debug_data [204]}
+def_route -prior_net {memory_ip/u_ddrphy_top/ddrphy_slice_top/adj_addr [73]}
