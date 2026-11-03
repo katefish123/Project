@@ -1,0 +1,22 @@
+{
+  "status": "partial_supplied_geometry_routing_not_board_integrated",
+  "development_evidence": "../../frame_region_20261017/verification.json",
+  "sampling_development_evidence": "../../frame_region_20261017/sampling_verification.json",
+  "publication_development_evidence": "../../frame_publish_20261018/verification.json",
+  "development_limit": "Supplied synthetic geometry and exact masks; isolated sampler and frame-publication guard tested with existing writer plus behavioral memory. Actual detector,physical source DDR,complete camera/region ownership,bank allocator and HDMI selector integration remain missing; full native composed throughput unqualified",
+  "provenance": "User statements in hardware chat 01a138e8-582f-7090-8ece-6119c3df7598, retrieved on 2026-10-17; same-size local-frame request and later marker/text corrections",
+  "same_input_output_dimensions": true,
+  "actual_camera_target": [1920, 1080],
+  "source_aspect_preserved": "16:9",
+  "region_boundary": "Actual outer paper/pad rectangle; marker centers alone are not the physical boundary",
+  "outside_original_frame": "Preserve source pixels exactly, with only explicitly identified old marker removal as the user-authorized exception",
+  "inside_original_frame": "Rectify into a physically justified aspect-preserving target rectangle contained in the original frame; fill vacated areas using background color",
+  "old_marker_cleanup": "Use complete marker masks associated with the same source frame, including source-neighbor cleanup before final sampling; do not leave old-position fragments",
+  "text": "Evaluate actual text baselines on held-out targets; preserve sampled source text, do not redraw text",
+  "sampling": "Compose mappings and sample the original image once",
+  "target_aspect_provenance": "Measured A4/pad dimensions or another explicit supported basis; do not infer arbitrary physical proportions from one image",
+  "calibration": "Image-specific grid/text fitting or piecewise image repair is not a real lens calibration or enterprise acceptance result",
+  "metadata": "Boundary, target rectangle, background, marker masks, H and lens profile must be associated with the source frame/bank/version and committed atomically",
+  "enterprise_acceptance": false,
+  "MTF_SFR_held_out_acceptance": false
+}

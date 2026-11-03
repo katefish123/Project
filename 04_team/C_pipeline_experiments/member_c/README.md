@@ -1,0 +1,47 @@
+# 成员 C：视频与硬件
+
+正式分支：`main-C`
+
+2026-10-15 已同步 [A 最新黑标版本的固定源码与状态](IntegratedBaseline/a_black_sync_20261014/README.md)，来源 `main-A / 256b5ea`、B `4106f3b`；远端再次核对无新提交。A 已撤下整套提速发布入口。最新开发入口为[全源图黑标/突发/恢复整合](IntegratedBaseline/black_board_20261015/README.md)：33项新仿真、额外错误期间旧/新显示检查、PDS构建和最终时序全部通过，硬件验收未做；sbit以 `8b1b07ad` 开头。既有正式与板上版本保持。
+
+当前缺项：最终合并版三帧平均启动间隔508.319ms，约1.97张/s模型样本，未达每秒60张不同结果。已审计[真实赛题和B最新代码](IntegratedBaseline/compliance_20261015/README.md)，确认还需镜头径向/切向、真实标定和硬件参数加载；新增[浮点/定点软件参考](IntegratedBaseline/lens_model_20261015/README.md)17项通过，尚未接入镜头RTL。旧[采集内黑标检测](IntegratedBaseline/inline_geometry_20261014/README.md)的−1.812ns失败证据保留；最新合并版RX为+1.449ns。
+
+本开发分支最新入口：[完整分辨率连续帧优化](IntegratedBaseline/fullhd_pipeline_20261014/README.md)。27 项仿真、PDS 构建及最终时序均通过；完整原生 DDR 三帧模型平均处理间隔 691.648ms → 599.984ms，减少 13.25%。板上验收未执行。用户准备烧录的正式版本仍固定在 `main-C` 的 `809c082`。
+
+上一轮[采集与校正并行候选版](IntegratedBaseline/capture_overlap_20261014/README.md)的小模型改善没有在完整链路上重现；其原始记录保留，最新结论和对照测量以上述新入口为准。
+
+初版交接与板测清单：[初版交接_20261014](IntegratedBaseline/初版交接_20261014.md)。
+
+最新整合入口：[全高清校正处理提速](IntegratedBaseline/processing_speed_20261014/README.md)。
+
+- 完整1920×1080源图写入DDR，校正为640×904竖向文档，并在1080p60中居中显示。
+- 最新调度优化的17项仿真通过，578,560个结果像素与定点参考模型一致；处理周期29,972,848→12,864,714，减少57.08%。
+- 待完成：新版板级烧录验收、真实更新速度与清晰度检查，以及连续采集与处理并行。仿真提速不等于已实现实时连续校正。
+
+前一版：[完整全高清源图适配](IntegratedBaseline/fullhd_source_20261013/README.md)。
+
+## 早期视频基础工程
+
+工程入口：`VideoTimingSim/`。以下为早期基础模块的记录，当前DDR与算法整合进度以上述最新入口为准。
+
+当前成果包含：
+
+- 参数化 1920×1080 视频时序控制器（VTC）
+- 竖彩条、纯色、四象限测试图案发生器（TPG）
+- 缩小参数教学仿真、TPG 独立检查和完整 1080p 整帧检查
+- ModelSim 运行脚本、模块说明与验证日志
+- 27 MHz 到 148.5 MHz、10 MHz 的两路 PDS PLL
+- MS7210 控制器与 I²C 配置模块
+- HDMI 彩条板级顶层、PDS 工程、34 个管脚约束和已生成码流
+
+验证结果：
+
+- TPG 检查：0 Errors，0 Warnings
+- 1080p 整帧检查：2,475,000 个像素位置、1,125 行，0 Errors，0 Warnings
+- HDMI 板级连接、MS7210 配置与完整硬件源码编译检查：0 Errors，0 Warnings
+
+早期工程主要验证视频时序与HDMI输出，后续相机采集、DDR及算法整合记录已迁入 `IntegratedBaseline/`。
+
+## 历史管理
+
+成员 C 的 V1–V5 已整合到 `main-C`。后续直接在 `main-C` 保存正式成果，历史变化通过 Git 提交记录查看，不再保留重复的版本分支和标签。
